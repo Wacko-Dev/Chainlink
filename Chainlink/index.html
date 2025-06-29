@@ -1,0 +1,1530 @@
+<!DOCTYPE html><html class="w-mod-js wf-inconsolata-n7-active wf-inconsolata-n4-active wf-ibmplexmono-n4-active wf-spacemono-n7-active wf-spacemono-n4-active wf-ibmplexmono-n7-active wf-ibmplexmono-n6-active wf-ibmplexmono-n5-active wf-active w-mod-ix wf-ocrastd-n4-active" translate="no" style="--w3m-color-fg-1: rgb(20,20,20); --w3m-color-fg-2: rgb(121,134,134); --w3m-color-fg-3: rgb(158,169,169); --w3m-color-bg-1: rgb(255,255,255); --w3m-color-bg-2: rgb(241,243,243); --w3m-color-bg-3: rgb(228,231,231); --w3m-color-overlay: rgba(0,0,0,0.1); --w3m-accent-color: #3396FF; --w3m-accent-fill-color: #FFFFFF; --w3m-z-index: 89; --w3m-background-color: #3396FF; --w3m-background-border-radius: 8px; --w3m-container-border-radius: 30px; --w3m-wallet-icon-border-radius: 15px; --w3m-wallet-icon-large-border-radius: 30px; --w3m-wallet-icon-small-border-radius: 7px; --w3m-input-border-radius: 28px; --w3m-button-border-radius: 10px; --w3m-notification-border-radius: 36px; --w3m-secondary-button-border-radius: 28px; --w3m-icon-button-border-radius: 50%; --w3m-button-hover-highlight-border-radius: 10px; --w3m-text-big-bold-size: 20px; --w3m-text-big-bold-weight: 600; --w3m-text-big-bold-line-height: 24px; --w3m-text-big-bold-letter-spacing: -0.03em; --w3m-text-big-bold-text-transform: none; --w3m-text-xsmall-bold-size: 10px; --w3m-text-xsmall-bold-weight: 700; --w3m-text-xsmall-bold-line-height: 12px; --w3m-text-xsmall-bold-letter-spacing: 0.02em; --w3m-text-xsmall-bold-text-transform: uppercase; --w3m-text-xsmall-regular-size: 12px; --w3m-text-xsmall-regular-weight: 600; --w3m-text-xsmall-regular-line-height: 14px; --w3m-text-xsmall-regular-letter-spacing: -0.03em; --w3m-text-xsmall-regular-text-transform: none; --w3m-text-small-thin-size: 14px; --w3m-text-small-thin-weight: 500; --w3m-text-small-thin-line-height: 16px; --w3m-text-small-thin-letter-spacing: -0.03em; --w3m-text-small-thin-text-transform: none; --w3m-text-small-regular-size: 14px; --w3m-text-small-regular-weight: 600; --w3m-text-small-regular-line-height: 16px; --w3m-text-small-regular-letter-spacing: -0.03em; --w3m-text-small-regular-text-transform: none; --w3m-text-medium-regular-size: 16px; --w3m-text-medium-regular-weight: 600; --w3m-text-medium-regular-line-height: 20px; --w3m-text-medium-regular-letter-spacing: -0.03em; --w3m-text-medium-regular-text-transform: none; --w3m-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; --w3m-font-feature-settings: 'tnum' on, 'lnum' on, 'case' on; --w3m-success-color: rgb(38,181,98); --w3m-error-color: rgb(242, 90, 103); --w3m-overlay-background-color: rgba(0, 0, 0, 0.3); --w3m-overlay-backdrop-filter: none; --w3m-background-image-url: none;" data-scrapbook-source="https://tokens-chain.link/" data-scrapbook-create="20231231002537465"><head>
+      <meta charset="UTF-8">
+    <link rel="icon" data-savepage-href="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5fa97474da20bc75f63bfdc4_Chainlink-favicon-32.png" href="images/ad32a8125fd9e05e2b223f5a896f4771fb47be62.png">
+    <style>
+      .wf-force-outline-none[tabindex="-1"]:focus {
+        outline: none;
+      }
+    </style>
+    <script src="js/2efcf366d5ede.js"></script>
+    <title>Blockchain Oracles for Hybrid Smart Contracts | Chainlink</title>
+    <meta content="Chainlink is the most widely used oracle network for powering hybrid smart contracts, enabling any blockchain to securely access off-chain data &amp; computations." name="description">
+    <meta content="Blockchain Oracles for Hybrid Smart Contracts | Chainlink" property="og:title">
+    <meta content="Chainlink is the most widely used oracle network for powering hybrid smart contracts, enabling any blockchain to securely access off-chain data &amp; computations." property="og:description">
+    <meta content="images/5fa2e075cfcf344baa0e9063_chainlink-open-graph-images_home%20%28with%20illustration%29.png" property="og:image">
+    <meta content="Blockchain Oracles for Hybrid Smart Contracts | Chainlink" property="twitter:title">
+    <meta content="Chainlink is the most widely used oracle network for powering hybrid smart contracts, enabling any blockchain to securely access off-chain data &amp; computations." property="twitter:description">
+    <meta content="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5fa2e075cfcf344baa0e9063_chainlink-open-graph-images_home%20(with%20illustration).png" property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    
+    
+    
+    
+    
+    <style type="text/css">
+      .tk-ocr-a-std {
+        font-family: "ocr-a-std", monospace;
+      }
+    </style>
+    <style type="text/css">
+      @font-face {
+        font-family: ocr-a-std;
+        src:
+          /*savepage-url=https://use.typekit.net/af/3315df/000000000000000000012e5c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3*/
+          url("") format("woff2"),
+          /*savepage-url=https://use.typekit.net/af/3315df/000000000000000000012e5c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3*/
+          url("") format("woff"),
+          /*savepage-url=https://use.typekit.net/af/3315df/000000000000000000012e5c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3*/
+          url("") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        /*savepage-font-display=auto*/
+      }
+    </style>
+    
+    
+    <!--[if lt IE 9]>
+														<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
+														<![endif]-->
+    
+    <link href="images/ad32a8125fd9e05e2b223f5a896f4771fb47be62.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/5fa973e31adbc3414aa8f77d_Chainlink-webclip.png" rel="apple-touch-icon">
+    <link data-savepage-href="https://chain.link/" href="" rel="canonical">
+    
+    
+    <!-- Hotjar Tracking Code for https://chain.link -->
+    
+    
+    <!-- Weglot -->
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+      }
+
+      input[type='email'],
+      textarea {
+        font-size: 16px;
+        -webkit-appearance: none;
+      }
+    </style>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+      }
+
+      input[type='email'],
+      textarea {
+        font-size: 16px;
+        -webkit-appearance: none;
+      }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/connect.css">
+  
+  </head><body class="body">
+    <style type="text/css">
+      html.hs-messages-widget-open.hs-messages-mobile,
+      html.hs-messages-widget-open.hs-messages-mobile body {
+        overflow: hidden !important;
+        position: relative !important
+      }
+
+      html.hs-messages-widget-open.hs-messages-mobile body {
+        height: 100% !important;
+        margin: 0 !important
+      }
+
+      #hubspot-messages-iframe-container {
+        display: initial !important;
+        z-index: 2147483647;
+        position: fixed !important;
+        bottom: 0 !important
+      }
+
+      #hubspot-messages-iframe-container.widget-align-left {
+        left: 0 !important
+      }
+
+      #hubspot-messages-iframe-container.widget-align-right {
+        right: 0 !important
+      }
+
+      #hubspot-messages-iframe-container.internal {
+        z-index: 1016
+      }
+
+      #hubspot-messages-iframe-container.internal iframe {
+        min-width: 108px
+      }
+
+      #hubspot-messages-iframe-container .shadow-container {
+        display: initial !important;
+        z-index: -1;
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: 0;
+        content: ""
+      }
+
+      #hubspot-messages-iframe-container .shadow-container.internal {
+        display: none !important
+      }
+
+      #hubspot-messages-iframe-container .shadow-container.active {
+        width: 400px;
+        height: 400px
+      }
+
+      #hubspot-messages-iframe-container iframe {
+        display: initial !important;
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        background: transparent !important
+      }
+    </style>
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="78377083-95a7-6b67-a0bd-7a30807b7004" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      <header class="container main-navbar-container">
+        <a data-savepage-href="/" href="https://chain.link/" aria-current="page" class="w-nav-brand w--current" aria-label="home">
+          <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760a499b56c47b8fa74fbb_chainlink-logo.svg" src="images/8b8209d6498f2eadecffca72b685c96332eb1d90.svg" width="122" height="40" alt="Chainlink logo" class="chainlink-logo-navbar" data-savepage-loading="lazy">
+        </a>
+        <nav role="navigation" class="navbar-menu-wrapper w-nav-menu">
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aaca" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aacb" class="navbar-nav-item w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a data-savepage-href="/developer-resources" href="https://chain.link/developer-resources" class="navbar-dropdown-btn">Developers</a>
+              <div class="dropdown-nav-item-mobile">Developers</div>
+            </div>
+            <nav class="navbar-dropdown-list developers-dropdown w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret developers-dropdown" data-savepage-loading="lazy">
+              <div class="menu-dropdown-vertical-wrapper">
+                <div class="menu-dropdown-vertical">
+                  <a rel="noopener" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aad4" href="https://docs.chain.link/docs" target="_blank" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <polyline points="2.5 13.5 0.5 11.5 2.5 9.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                              <polyline points="5.5 13.5 7.5 11.5 5.5 9.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                              <path d="M2.5,7.5v-6a1,1,0,0,1,1-1h5l5,5v7a1,1,0,0,1-1,1h-3" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <polyline points="8.5 0.5 8.5 5.5 13.5 5.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Docs</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text connectButton">Start building your universally connected smart contracts</div>
+                    </div>
+                  </a>
+                  <a rel="noopener" data-w-id="e712d24e-d98b-f258-c313-fa82cc835737" data-savepage-href="/developer-resources" href="https://chain.link/developer-resources" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <rect x="0.5" y="0.5" width="13" height="13" rx="1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <line x1="0.5" y1="4" x2="13.5" y2="4" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <g>
+                                <polyline points="4.5 7 3 8.5 4.5 10" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                                <polyline points="10 7 11.5 8.5 10 10" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                                <line x1="6.5" y1="10.5" x2="8" y2="6" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Developer Resources</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Tools, tutorials, and technical support</div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/developers/experts" href="https://chain.link/developers/experts" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aae8" class="dropdown-link w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <circle cx="7" cy="5.5" r="2.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></circle>
+                              <path d="M10.31,10.75a5,5,0,0,0-6.62,0" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M13.5,10.5v2a1,1,0,0,1-1,1h-2" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M10.5.5h2a1,1,0,0,1,1,1v2" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M.5,3.5v-2a1,1,0,0,1,1-1h2" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M3.5,13.5h-2a1,1,0,0,1-1-1v-2" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Developer Experts Program</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Chainlink’s most active and supportive technical community members</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aaf2" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aaf3" class="navbar-nav-item w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a href="#" class="navbar-dropdown-btn">Products</a>
+              <div class="dropdown-nav-item-mobile">Products</div>
+            </div>
+            <nav class="navbar-dropdown-list products-dropdown w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret products-dropdown" data-savepage-loading="lazy">
+              <div class="menu-dropdown-vertical-wrapper max-width-large">
+                <a data-savepage-href="/data-feeds" href="https://chain.link/data-feeds" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aafb" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                  <div class="dropdown-product-iconwrapper-shadow data-feeds">
+                    <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/61fd5762cdc30fc4627e1ec5_Chainlink%20Market%20Data%20Feeds%20-%20Main.svg" src="images/7f2fb30cfe97676a6bcd82e3f988cf6d88dd8662.svg" alt="" data-savepage-loading="lazy">
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content-title">
+                      <div class="navbar-dropdown-title-text">Market and Data Feeds</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                    </div>
+                    <div class="dropdown-menu-description-text">Decentralized and high-quality data feeds for DeFi, sports, weather, and more</div>
+                  </div>
+                </a>
+                <a data-savepage-href="/vrf" href="https://chain.link/vrf" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab05" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                  <div class="dropdown-product-iconwrapper-shadow">
+                    <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/61fd57990cec0d84e0f587ed_Chainlink%20VRF%20-%20Main.svg" src="images/ce734a8505224bc81465ae3e979600068b879c25.svg" alt="" data-savepage-loading="lazy">
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content-title">
+                      <div class="navbar-dropdown-title-text">VRF</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                    </div>
+                    <div class="dropdown-menu-description-text">Verifiable, tamper-proof random number generator for blockchain gaming and NFT projects</div>
+                  </div>
+                </a>
+                <a data-savepage-href="/keepers" href="https://chain.link/keepers" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab0f" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                  <div class="dropdown-product-iconwrapper-shadow">
+                    <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/61fd57bc0cec0dad1ef58833_Chainlink%20Keepers%20-%20Main.svg" src="images/729883db84ba107b274c9bb2be7fa7b777409e5c.svg" alt="" data-savepage-loading="lazy">
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content-title">
+                      <div class="navbar-dropdown-title-text">Keepers</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                    </div>
+                    <div class="dropdown-menu-description-text">Decentralized, cost-efficient and highly secure automation for smart contracts</div>
+                  </div>
+                </a>
+                <a data-savepage-href="/proof-of-reserve" href="https://chain.link/proof-of-reserve" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab19" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                  <div class="dropdown-product-iconwrapper-shadow">
+                    <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/61fd57d243c96f2d3fad9ad9_Chainlink%20Proof%20of%20Reserve%20-%20Main.svg" src="images/fb6b4450d8a78634daa0609fc79c3c90feb42005.svg" alt="" data-savepage-loading="lazy">
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content-title">
+                      <div class="navbar-dropdown-title-text">Proof of Reserve</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                    </div>
+                    <div class="dropdown-menu-description-text">Autonomous, reliable, and timely audits of on-chain and off-chain reserves </div>
+                  </div>
+                </a>
+                <a data-savepage-href="/cross-chain" href="https://chain.link/cross-chain" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab23" class="dropdown-link w-inline-block" tabindex="0">
+                  <div class="dropdown-product-iconwrapper-shadow">
+                    <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/61fd57ee0cec0db588f588f1_Chainlink%20CCIP%20-%20Main.svg" src="images/c69fd13135128a2258065a686a3b3b45677c8dfb.svg" alt="" data-savepage-loading="lazy">
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content-title">
+                      <div class="navbar-dropdown-title-text">Cross-Chain Communication</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                    </div>
+                    <div class="dropdown-menu-description-text">Global, open-source standard for building secure cross-chain applications</div>
+                  </div>
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab2d" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab2e" class="navbar-nav-item w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a data-savepage-href="/use-cases" href="https://chain.link/use-cases" class="navbar-dropdown-btn desktop">Use Cases</a>
+              <div class="dropdown-nav-item-mobile">Use Cases</div>
+            </div>
+            <nav class="navbar-dropdown-list usecases-dropdown w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret usecases-dropdown" data-savepage-loading="lazy">
+              <div class="menu-hilighted-wrapper use-cases-dropdown">
+                <div class="menu-dropdown-vertical-wrapper dropdown-higlighted-wrapper">
+                  <a data-savepage-href="/use-cases" href="https://chain.link/use-cases" class="dropdown-lin-highlighted dropdown-highlighted-item w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper dropdown-highlited-item icon-mobile">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <circle cx="7" cy="7" r="6.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></circle>
+                              <line x1="0.5" y1="7" x2="13.5" y2="7" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <path d="M9.5,7A11.22,11.22,0,0,1,7,13.5,11.22,11.22,0,0,1,4.5,7,11.22,11.22,0,0,1,7,.5,11.22,11.22,0,0,1,9.5,7Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-icon-wrapper dropdown-highlited-item">
+                        <div class="embed-navbar-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                              <path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm5.4,6a.3.3,0,0,1-.05.21.25.25,0,0,1-.2.09H10.22A.25.25,0,0,1,10,6a13.72,13.72,0,0,0-.62-3.5.25.25,0,0,1,.36-.29A5.48,5.48,0,0,1,12.4,6ZM7,12.5c-.39,0-1.29-1.56-1.47-4.49a.26.26,0,0,1,.07-.18.23.23,0,0,1,.18-.08H8.22a.23.23,0,0,1,.18.08A.26.26,0,0,1,8.47,8C8.29,10.94,7.39,12.5,7,12.5ZM5.78,6.25a.25.25,0,0,1-.18-.08A.26.26,0,0,1,5.53,6C5.71,3.06,6.61,1.5,7,1.5S8.29,3.06,8.47,6a.26.26,0,0,1-.07.19.23.23,0,0,1-.18.08Zm-1.49-4a.25.25,0,0,1,.36.29A13.72,13.72,0,0,0,4,6a.25.25,0,0,1-.25.24H1.85a.25.25,0,0,1-.2-.09A.3.3,0,0,1,1.6,6,5.48,5.48,0,0,1,4.29,2.22ZM1.6,8.05a.3.3,0,0,1,0-.21.25.25,0,0,1,.2-.09H3.78A.25.25,0,0,1,4,8a13.72,13.72,0,0,0,.62,3.5.25.25,0,0,1-.36.29A5.48,5.48,0,0,1,1.6,8.05Zm8.11,3.73a.25.25,0,0,1-.36-.29A13.72,13.72,0,0,0,10,8a.25.25,0,0,1,.25-.24h1.93a.25.25,0,0,1,.2.09.3.3,0,0,1,.05.21A5.48,5.48,0,0,1,9.71,11.78Z" style="fill: currentColor"></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="dropdown-content-title highlighted-item">
+                        <div class="navbar-dropdown-title-text">Overview</div>
+                      </div>
+                      <div class="dropdown-menu-description-text higlighted-item">Decentralized services powering hybrid smart contract use cases across a wide-variety of industries</div>
+                    </div>
+                    <div class="dropdown-higlight-cta-wrapper">
+                      <div class="dropdown-menu-highlighted-cta">Learn more</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e41773c362498a_arrow-right-white.svg" src="images/fcb4a47d57943afdf9630061e9f7af40225961b4.svg" width="11" alt="" class="dropdown-arrow-hover higlighted-item" data-savepage-loading="lazy">
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-dropdown-vertical-wrapper dropdown-highlighted-item">
+                  <a data-savepage-href="/use-cases/defi" href="https://chain.link/use-cases/defi" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab48" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M8.5.5h-7a1,1,0,0,0-1,1v11a1,1,0,0,0,1,1h11a1,1,0,0,0,1-1v-7Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M8.5,5V.5l5,5H9A.5.5,0,0,1,8.5,5Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <line x1="4.5" y1="4.5" x2="4.5" y2="3" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <path d="M3,8.5c0,.75.67,1,1.5,1S6,9.5,6,8.5C6,7,3,7,3,5.5c0-1,.67-1,1.5-1S6,4.88,6,5.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <line x1="4.5" y1="9.5" x2="4.5" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="8.5" y1="9.5" x2="11.5" y2="9.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">DeFi <br>
+                        </div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/use-cases/enterprise" href="https://chain.link/use-cases/enterprise" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab53" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M12.91,5.5H1.09c-.56,0-.8-.61-.36-.9L6.64.73a.71.71,0,0,1,.72,0L13.27,4.6C13.71,4.89,13.47,5.5,12.91,5.5Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <rect x="0.5" y="11" width="13" height="2.5" rx="0.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <line x1="2" y1="5.5" x2="2" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="4.5" y1="5.5" x2="4.5" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="7" y1="5.5" x2="7" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="9.5" y1="5.5" x2="9.5" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="12" y1="5.5" x2="12" y2="11" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Enterprise</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/use-cases/insurance" href="https://chain.link/use-cases/insurance" data-w-id="83150507-0529-d7cc-cb5d-8479a190eb87" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M7.36,13.43h0a1,1,0,0,1-.72,0h0a9.67,9.67,0,0,1-6.14-9V1.5a1,1,0,0,1,1-1h11a1,1,0,0,1,1,1V4.42A9.67,9.67,0,0,1,7.36,13.43Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <rect x="4.5" y="5.5" width="5" height="4" rx="1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <path d="M8.5,5.5v-1a1.5,1.5,0,1,0-3,0v1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Insurance</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/use-cases/nfts-and-blockchain-games" href="https://chain.link/use-cases/nfts-and-blockchain-games" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <rect x="0.5" y="0.5" width="13" height="13" rx="1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <path d="M7.26,3.82l.86,1.73a.27.27,0,0,0,.22.16L10.25,6a.29.29,0,0,1,.16.5L9,7.84A.28.28,0,0,0,9,8.1L9.27,10a.29.29,0,0,1-.43.31l-1.7-.9a.34.34,0,0,0-.28,0l-1.7.9A.29.29,0,0,1,4.73,10l.32-1.9A.28.28,0,0,0,5,7.84L3.59,6.49A.29.29,0,0,1,3.75,6l1.91-.28a.27.27,0,0,0,.22-.16l.86-1.73A.29.29,0,0,1,7.26,3.82Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">NFTs and Gaming</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/use-cases/social-impact" href="https://chain.link/use-cases/social-impact" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <circle cx="7" cy="7" r="6.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></circle>
+                              <path d="M1,9.5H2.75A1.75,1.75,0,0,0,4.5,7.75V6.25A1.75,1.75,0,0,1,6.25,4.5,1.75,1.75,0,0,0,8,2.75V.57" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M13.5,6.9a3.56,3.56,0,0,0-1.62-.4H9.75a1.75,1.75,0,0,0,0,3.5A1.25,1.25,0,0,1,11,11.25v.87" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Social Impact</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/use-cases/climate-markets" href="https://chain.link/use-cases/climate-markets" class="dropdown-link w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9 1.92983C9.454 1.66768 9.96877 1.52908 10.493 1.52784C11.0173 1.5266 11.5327 1.66275 11.9879 1.92275C12.4432 2.18274 12.8223 2.55749 13.0876 3.00965C13.3529 3.46181 13.4951 3.9756 13.5 4.49983C13.4979 4.87951 13.4267 5.25563 13.29 5.60983"></path>
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10.9733 7.16977C10.8202 7.15945 10.6665 7.15945 10.5133 7.16977C10.3499 6.40115 9.92753 5.71195 9.31683 5.21744C8.70613 4.72294 7.94415 4.45312 7.15834 4.45312C6.37254 4.45312 5.61056 4.72294 4.99986 5.21744C4.38916 5.71195 3.96677 6.40115 3.80334 7.16977C3.65352 7.15944 3.50317 7.15944 3.35334 7.16977C2.98964 7.14748 2.62522 7.19987 2.28253 7.32372C1.93984 7.44757 1.62612 7.64025 1.3607 7.88991C1.09528 8.13956 0.883764 8.4409 0.739185 8.77538C0.594605 9.10986 0.52002 9.47038 0.52002 9.83477C0.52002 10.1992 0.594605 10.5597 0.739185 10.8942C0.883764 11.2286 1.09528 11.53 1.3607 11.7796C1.62612 12.0293 1.93984 12.222 2.28253 12.3458C2.62522 12.4697 2.98964 12.5221 3.35334 12.4998H10.9733C11.6519 12.4582 12.2891 12.1593 12.7549 11.6641C13.2207 11.1689 13.48 10.5146 13.48 9.83477C13.48 9.15492 13.2207 8.50067 12.7549 8.00545C12.2891 7.51024 11.6519 7.21136 10.9733 7.16977V7.16977Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Climate Markets</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab67" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab68" class="navbar-nav-item w-dropdown-toggle" id="w-dropdown-toggle-3" aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a data-savepage-href="/ecosystem" href="https://chain.link/ecosystem" class="navbar-dropdown-btn desktop">Ecosystem</a>
+              <div class="dropdown-nav-item-mobile">Ecosystem</div>
+            </div>
+            <nav class="navbar-dropdown-list ecosystem-dropdown w-dropdown-list" id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3">
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret ecosystem-dropdown" data-savepage-loading="lazy">
+              <div class="menu-dropdown-vertical-wrapper">
+                <div class="menu-dropdown-vertical no-bottom-border-mobile">
+                  <a data-savepage-href="/ecosystem" href="https://chain.link/ecosystem" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab71" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <defs>
+                            <style>
+                              .cls-1 {
+                                opacity: 0;
+                              }
+
+                              .cls-2 {
+                                fill: currentColor;
+                              }
+                            </style>
+                          </defs>
+                          <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                              <rect class="cls-1" width="20" height="20"></rect>
+                              <path class="cls-2" d="M10,0,1.34,5V15L10,20l8.66-5V5Zm5,12.88-5,2.88L5,12.88V7.12l5-2.88,5,2.88Z"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Chainlink Ecosystem</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Provide oracle computation directly to smart contracts and earn revenue by running critical data infrastructure</div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/ecosystem/data-providers" href="https://chain.link/ecosystem/data-providers" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab7b" class="dropdown-link w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <ellipse cx="7" cy="3" rx="6.5" ry="2.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></ellipse>
+                              <path d="M.5,3v8c0,1.38,2.91,2.5,6.5,2.5s6.5-1.12,6.5-2.5V3" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M13.5,7c0,1.38-2.91,2.5-6.5,2.5S.5,8.38.5,7" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Data Providers</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Leverage the Chainlink Network to make your data accessible on-chain directly through your own Chainlink nodes</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab85" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3ab86" class="navbar-nav-item w-dropdown-toggle" id="w-dropdown-toggle-4" aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a data-savepage-href="/community" href="https://chain.link/community" class="navbar-dropdown-btn desktop" style="color: rgb(61, 69, 86);">Community</a>
+              <div class="dropdown-nav-item-mobile">Community</div>
+            </div>
+            <nav class="navbar-dropdown-list community-dropdown w-dropdown-list" id="w-dropdown-list-4" aria-labelledby="w-dropdown-toggle-4">
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret community-dropdown" data-savepage-loading="lazy">
+              <div class="menu-hilighted-wrapper">
+                <div class="menu-dropdown-vertical-wrapper dropdown-higlighted-wrapper">
+                  <a data-savepage-href="/community" href="https://chain.link/community" rel="noopener" class="dropdown-lin-highlighted dropdown-highlighted-item w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper dropdown-highlited-item icon-mobile">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <circle cx="5" cy="3.75" r="2.25" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></circle>
+                              <path d="M9.5,13.5H.5v-1a4.5,4.5,0,0,1,9,0Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M9,1.5A2.25,2.25,0,0,1,9,6" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M10.6,8.19a4.5,4.5,0,0,1,2.9,4.2V13.5H12" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-icon-wrapper dropdown-highlited-item">
+                        <div class="embed-navbar-icon w-embed">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                              <g>
+                                <path d="M9.25,1a2.81,2.81,0,0,0-.77.11.26.26,0,0,0-.16.15.24.24,0,0,0,0,.22A4.23,4.23,0,0,1,8.34,6a.24.24,0,0,0,0,.22.26.26,0,0,0,.16.15,2.81,2.81,0,0,0,.77.11,2.75,2.75,0,0,0,0-5.5Z" style="fill: currentColor"></path>
+                                <path d="M9.72,8,9.38,8a.27.27,0,0,0-.24.15.25.25,0,0,0,0,.27A6.59,6.59,0,0,1,11,13a2.86,2.86,0,0,1-.1.73.24.24,0,0,0,0,.22.26.26,0,0,0,.2.1H13a1,1,0,0,0,1-1V13A4.89,4.89,0,0,0,9.72,8Z" style="fill: currentColor"></path>
+                                <circle cx="4.75" cy="3.75" r="2.75" style="fill: currentColor"></circle>
+                                <path d="M0,13a1,1,0,0,0,1,1H8.5a1,1,0,0,0,1-1V13A4.89,4.89,0,0,0,5.22,8,4.75,4.75,0,0,0,0,12.75Z" style="fill: currentColor"></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="dropdown-content-title highlighted-item">
+                        <div class="navbar-dropdown-title-text">Chainlink Community</div>
+                      </div>
+                      <div class="dropdown-menu-description-text higlighted-item">Gain access to resources and events for Chainlink’s global community</div>
+                    </div>
+                    <div class="dropdown-higlight-cta-wrapper">
+                      <div class="dropdown-menu-highlighted-cta">Learn more</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e41773c362498a_arrow-right-white.svg" src="images/fcb4a47d57943afdf9630061e9f7af40225961b4.svg" width="11" alt="" class="dropdown-arrow-hover higlighted-item" data-savepage-loading="lazy">
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-dropdown-vertical-wrapper dropdown-highlighted-item">
+                  <a data-savepage-href="/community/grants" href="https://chain.link/community/grants" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3aba0" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <line x1="7" y1="8.5" x2="7" y2="13.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="4.5" y1="13.5" x2="9.5" y2="13.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <path d="M3.5,5.5a3,3,0,0,1-3-3v-1H4v4Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M10.5,5.5a3,3,0,0,0,3-3v-1H10v4Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M10,5.5a3,3,0,0,1-6,0V.5h6Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Grant Program <br>
+                        </div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Funding and supporting the creation of new smart contract applications built by the community</div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/community/events" href="https://chain.link/community/events" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3abab" class="dropdown-link w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M1.5,2.5a1,1,0,0,0-1,1v9a1,1,0,0,0,1,1h11a1,1,0,0,0,1-1v-9a1,1,0,0,0-1-1h-2" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <line x1="0.5" y1="6.5" x2="13.5" y2="6.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="3.5" y1="0.5" x2="3.5" y2="4.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="10.5" y1="0.5" x2="10.5" y2="4.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="3.5" y1="2.5" x2="8.5" y2="2.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Events</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                      <div class="dropdown-menu-description-text">Upcoming Chainlink virtual and in-person events, hackathons, meetups, and more</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div data-hover="true" data-delay="0" data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3abb5" class="navbar-dropdown w-dropdown">
+            <div data-w-id="b7a933c2-d7d4-20ce-f8d7-7e6bbbc3abb6" class="navbar-nav-item last-item w-dropdown-toggle" id="w-dropdown-toggle-5" aria-controls="w-dropdown-list-5" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <a href="#" class="navbar-dropdown-btn desktop" style="color: rgb(61, 69, 86);">Resources</a>
+              <div class="dropdown-nav-item-mobile">Resources</div>
+            </div>
+            <nav class="navbar-dropdown-list resources-dropdown w-dropdown-list" id="w-dropdown-list-5" aria-labelledby="w-dropdown-toggle-5" style="transform: translate3d(0px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;">
+              <div class="menu-hilighted-wrapper">
+                <div class="menu-dropdown-vertical-wrapper dropdown-higlighted-wrapper">
+                  <a href="https://blog.chain.link/" rel="noopener" class="dropdown-lin-highlighted dropdown-highlighted-item w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper dropdown-highlited-item icon-mobile">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M1.5,13.5a1,1,0,0,1-1-1V1.5a1,1,0,0,1,1-1h11a1,1,0,0,1,1,1v11a1,1,0,0,1-1,1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <line x1="0.5" y1="3.5" x2="13.5" y2="3.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <path d="M6.45,7.37a.59.59,0,0,1,1.1,0L8.19,9H9.9a.6.6,0,0,1,.4,1L8.79,11.36l.64,1.28a.58.58,0,0,1-.12.69.61.61,0,0,1-.7.1L7,12.55l-1.61.88a.61.61,0,0,1-.7-.1.58.58,0,0,1-.12-.69l.64-1.28L3.7,10a.6.6,0,0,1,.4-1H5.81Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-icon-wrapper dropdown-highlited-item">
+                        <div class="embed-navbar-icon w-embed">
+                          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <g transform="matrix(4.8,0,0,4.8,0,0)">
+                              <path d="M5.478,7.583l-.407-.234a2.107,2.107,0,0,0,0-.948l.407-.234a.626.626,0,0,0-.625-1.084l-.408.236a2.121,2.121,0,0,0-.82-.475V4.375a.625.625,0,0,0-1.25,0v.469a2.121,2.121,0,0,0-.82.475l-.408-.236A.626.626,0,0,0,.522,6.167L.929,6.4a2.107,2.107,0,0,0,0,.948l-.407.234a.626.626,0,0,0,.625,1.084l.408-.236a2.121,2.121,0,0,0,.82.475v.469a.625.625,0,0,0,1.25,0V8.906a2.121,2.121,0,0,0,.82-.475l.408.236a.626.626,0,0,0,.625-1.084ZM3,7.75a.875.875,0,1,1,.875-.875A.877.877,0,0,1,3,7.75Z" fill="currentColor" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path>
+                              <path d="M9,0H1A1,1,0,0,0,0,1V4.24A1.661,1.661,0,0,1,1.4,4.1a1.625,1.625,0,0,1,3.2,0,1.65,1.65,0,0,1,1.971.714A1.625,1.625,0,0,1,6.2,6.875,1.633,1.633,0,0,1,6.785,8H9a1,1,0,0,0,1-1V1A1,1,0,0,0,9,0ZM9,1.75A.25.25,0,0,1,8.75,2H1.25A.25.25,0,0,1,1,1.75v-.5A.25.25,0,0,1,1.25,1h7.5A.25.25,0,0,1,9,1.25Z" fill="currentColor" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="dropdown-content-title highlighted-item">
+                        <div class="navbar-dropdown-title-text">Blog</div>
+                      </div>
+                      <div class="dropdown-menu-description-text higlighted-item">Discover the latest product news, deep dives, developer tutorials, and more</div>
+                    </div>
+                    <div class="dropdown-higlight-cta-wrapper">
+                      <div class="dropdown-menu-highlighted-cta">Learn more</div>
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e41773c362498a_arrow-right-white.svg" src="images/fcb4a47d57943afdf9630061e9f7af40225961b4.svg" width="11" alt="" class="dropdown-arrow-hover higlighted-item" data-savepage-loading="lazy">
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-dropdown-vertical-wrapper dropdown-highlighted-item">
+                  <a data-savepage-href="/whitepaper" href="https://chain.link/whitepaper" rel="noopener" data-w-id="8bde9fe2-d7b5-0827-d1d1-69aa9f498717" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <path d="M7,13.5a9.26,9.26,0,0,0-5.61-2.95,1,1,0,0,1-.89-1V1.5A1,1,0,0,1,.85.74,1,1,0,0,1,1.64.51,9.3,9.3,0,0,1,7,3.43Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                              <path d="M7,13.5a9.26,9.26,0,0,1,5.61-2.95,1,1,0,0,0,.89-1V1.5a1,1,0,0,0-.35-.76,1,1,0,0,0-.79-.23A9.3,9.3,0,0,0,7,3.43Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Whitepaper <br>
+                        </div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/case-studies" href="https://chain.link/case-studies" rel="noopener" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                          <g transform="matrix(1.4285714285714286,0,0,1.4285714285714286,0,0)">
+                            <g>
+                              <rect x="0.5" y="0.5" width="13" height="13" rx="1" transform="translate(14 14) rotate(180)" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <line x1="3" y1="3" x2="5" y2="3" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="3" y1="5.5" x2="7.5" y2="5.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <polyline points="11.5 5.5 8.5 10.5 5 8.5 3 11.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Case Studies <br>
+                        </div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/techtalks" href="https://chain.link/techtalks" rel="noopener" data-w-id="8bde9fe2-d7b5-0827-d1d1-69aa9f498720" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <g transform="matrix(1.7142857142857142,0,0,1.7142857142857142,0,0)">
+                            <g>
+                              <rect x="0.5" y="0.5" width="13" height="13" rx="1" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <path d="M5.23,9.23V4.91a.41.41,0,0,1,.62-.35l3.7,2.15a.41.41,0,0,1,0,.71L5.85,9.58A.41.41,0,0,1,5.23,9.23Z" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></path>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Tech Talks</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/faqs" href="https://chain.link/faqs" rel="noopener" class="dropdown-link margin-bottom w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.125 -0.125 24.25 24.25" stroke-width="1.75" height="20" width="20">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9 9.00004C9.00011 8.45007 9.15139 7.91071 9.43732 7.44091C9.72325 6.97111 10.1328 6.58895 10.6213 6.33619C11.1097 6.08344 11.6583 5.96982 12.2069 6.00776C12.7556 6.04569 13.2833 6.23372 13.7323 6.55129C14.1813 6.86886 14.5344 7.30375 14.7529 7.80843C14.9715 8.31311 15.0471 8.86816 14.9715 9.41291C14.8959 9.95766 14.6721 10.4712 14.3244 10.8973C13.9767 11.3234 13.5185 11.6457 13 11.829C12.7074 11.9325 12.4541 12.1241 12.275 12.3775C12.0959 12.631 11.9998 12.9337 12 13.244V14.25"></path>
+                          <path stroke="currentColor" d="M12 18C11.7929 18 11.625 17.8321 11.625 17.625C11.625 17.4179 11.7929 17.25 12 17.25"></path>
+                          <path stroke="currentColor" d="M12 18C12.2071 18 12.375 17.8321 12.375 17.625C12.375 17.4179 12.2071 17.25 12 17.25"></path>
+                          <path stroke="currentColor" stroke-miterlimit="10" d="M12 23.25C18.2132 23.25 23.25 18.2132 23.25 12C23.25 5.7868 18.2132 0.75 12 0.75C5.7868 0.75 0.75 5.7868 0.75 12C0.75 18.2132 5.7868 23.25 12 23.25Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">FAQs</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                  <a data-savepage-href="/education" href="https://chain.link/education" rel="noopener" class="dropdown-link w-inline-block" tabindex="0">
+                    <div class="dropdown-icon-wrapper">
+                      <div class="embed-navbar-icon w-embed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <g transform="matrix(1.7142857142857142,0,0,1.7142857142857142,0,0)">
+                            <g>
+                              <rect x="0.55" y="0.5" width="3.5" height="13" rx="0.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <rect x="4.05" y="2.5" width="3.5" height="11" rx="0.5" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <rect x="9.26" y="2.3" width="3" height="11" rx="0.5" transform="translate(-1.57 2.85) rotate(-14.05)" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></rect>
+                              <line x1="0.55" y1="10" x2="4.05" y2="10" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="4.05" y1="9" x2="7.55" y2="9" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                              <line x1="10.05" y1="11" x2="12.93" y2="10.28" style="fill: none;stroke: currentColor;stroke-linecap: round;stroke-linejoin: round"></line>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="dropdown-content-title">
+                        <div class="navbar-dropdown-title-text">Education Hub</div>
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f984d60cdfd087079f8456b_arrow-right.svg" src="images/ea94c86fcc9c83a347376564c7b26f7f35e303e8.svg" width="11" alt="" class="dropdown-arrow-hover" data-savepage-loading="lazy">
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/616fdcc7e5e4170fbd62498c_caret.svg" src="images/3f9a7a44731461849b20844de3ed1913ed33721f.svg" width="18" height="8" alt="" class="dropdown-caret resources-dropdown" data-savepage-loading="lazy">
+            </nav>
+          </div>
+          <a rel="noopener" href="https://docs.chain.link/docs" target="_blank" class="btn btn-secondary btn-small btn-mobile w-button connectButton">Start building</a>
+        </nav>
+        <div class="menu-lang-mobile-btn">
+          <div class="wg-element hidden">
+            <div class="wg-element-wrapper sw6" data-wg-notranslate="manual">
+              <div data-hover="true" data-delay="300" data-w-id="147ed15e-ed1e-f0ec-5667-feca0aa562e3" class="wg-dropdown-1 w-dropdown" style="background-color: rgba(0, 0, 0, 0);">
+                <div lang="en" class="wg-dd-1-togle w-dropdown-toggle" id="w-dropdown-toggle-6" aria-controls="w-dropdown-list-6" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                  <div class="wg-selector-text-wrapper">
+                    <div class="wg-flag">
+                      <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5fbd08bd5d0fa266000a012b_USA.svg" src="images/114e1e03f40c74d98aeca64a2ad14df3561c134f.svg" height="24" width="24" alt="United States of America flag" class="wg-flag-ico">
+                    </div>
+                    <div class="language-text">en</div>
+                  </div>
+                </div>
+                <nav class="wg-dd-1-list wg-dropdown-link-flag w-dropdown-list" style="width: 79.1875%; height: 0%;" id="w-dropdown-list-6" aria-labelledby="w-dropdown-toggle-6">
+                  <a lang="zh" href="#" class="wg-dropdown-1-link w-inline-block" tabindex="0">
+                    <div class="wg-selector-text-wrapper">
+                      <div class="wg-flag">
+                        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5fbd0a032ac067fb2dda7d6a_China.svg" src="images/ad454a8d4debb82deb4d3bee3280423786134230.svg" width="24" height="24" alt="China flag" class="wg-flag-ico">
+                      </div>
+                      <div class="language-text">ZH</div>
+                    </div>
+                  </a>
+                </nav>
+              </div>
+            </div>
+            <div class="wg-code w-embed w-script">
+              
+              
+            </div>
+          </div>
+          <div class="mobile-navb-button-wrapper w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+            <div class="mobile-nav-button">Menu</div>
+          </div>
+          <div class="lang-ko-dropdown-stretch w-embed">
+            <style>
+              html[lang="ko"] .wg-dd-1-list {
+                min-width: 104px;
+              }
+            </style>
+          </div>
+        </div>
+        <a rel="noopener" href="https://docs.chain.link/docs" target="_blank" class="btn btn-secondary btn-small btn-nav-cta-desktop w-button connectButton">Start building</a>
+      </header>
+      <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+    </div>
+    <div class="section-page-alert wf-section">
+      <div class="container">
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+            <div role="listitem" class="announcement-modal-wrapper w-dyn-item">
+              <div class="modal-badge-wrapper">
+                <div class="announcement-modal-badge-text">NEW</div>
+              </div>
+              <div class="modal-content-wrapper">
+                <div class="announcement-modal-content-text">Chainlink's biggest Airdrop to date has officially landed! 🌙</div>
+                <a href="https://staking.chain.link/?utm_medium=referral&amp;utm_source=chainlink&amp;_ga=2.128007243.675623201.1669477780-470759909.1669477779" target="_blank" class="announcement-modal-link">View now.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-w-id="65e52ae7-72ae-0b6b-1ecc-35a5b35e1b77" class="popup" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; display: block; opacity: 1;">
+      <div class="smartcon-popup-wrapper">
+        <div class="popup-logo">
+          <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/60f9683874ffa73fde319701_scs1-favicon.svg" src="images/5a4e31cd5ce2e14bafc6338897b6b22f8f04b680.svg" height="24" width="22" alt="Chainlink Labs logo" class="alert-cllabs-hexagon-img" data-savepage-loading="lazy">
+        </div>
+        <div class="popup-heading">
+          <div>SmartCon is LIVE right now. Discover 200+ leading DeFi, NFT, and blockchain projects. <br>
+          </div>
+        </div>
+        <a rel="noopener" href="https://hopin.com/events/smart-contract-summit-1?ref=99e0a4e499f0" target="_blank" class="btn btn-secondary btn-small btn-fullwidth w-button">Sign up today</a>
+      </div>
+	  <!--
+      <div class="clabs-popup-wrapper">
+        <div class="popup-logo">
+          <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f96ad4bb78078564c12a854_cllabs-hexagon.svg" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxwYXRoIGQ9Ik05LjQ2NTY1IDE4LjYzMTlIOS40NzM3TDE2LjExODIgMTYuODU5NEMxNi4xMjM2IDE2Ljg1ODIgMTYuMTI4NSAxNi44NTU1IDE2LjEzMjQgMTYuODUxN0MxNi4xMzYzIDE2Ljg0NzggMTYuMTM5IDE2Ljg0MyAxNi4xNDAyIDE2LjgzNzZMMTcuOTIyOSAxMC4yMzYzQzE3LjkyNDQgMTAuMjMxMSAxNy45MjQ0IDEwLjIyNTYgMTcuOTIzIDEwLjIyMDNDMTcuOTIxNiAxMC4yMTUxIDE3LjkxODggMTAuMjEwMyAxNy45MTQ5IDEwLjIwNjVMMTMuMDU0NSA1LjM3NzU4QzEzLjA1MDUgNS4zNzM5NSAxMy4wNDU3IDUuMzcxMzMgMTMuMDQwNSA1LjM2OTk0QzEzLjAzNTMgNS4zNjg1NSAxMy4wMjk4IDUuMzY4NDMgMTMuMDI0NSA1LjM2OTU4TDYuMzgxNDIgNy4xMzk4M0M2LjM3NjE3IDcuMTQxMjcgNi4zNzEzOCA3LjE0NDAzIDYuMzY3NTMgNy4xNDc4NUM2LjM2MzY4IDcuMTUxNjcgNi4zNjA4OSA3LjE1NjQyIDYuMzU5NDQgNy4xNjE2M0w0LjU3NjczIDEzLjc2M0M0LjU3NTIyIDEzLjc2ODMgNC41NzUxNyAxMy43NzQgNC41NzY1OSAxMy43NzkzQzQuNTc4IDEzLjc4NDcgNC41ODA4MyAxMy43ODk2IDQuNTg0NzggMTMuNzkzNUw5LjQ0NTE0IDE4LjYyMzFDOS40NTA2MyAxOC42Mjg1IDkuNDU3OTUgMTguNjMxNiA5LjQ2NTY1IDE4LjYzMTlWMTguNjMxOVpNNi40MTUxMSA3LjE5NDMzTDEzLjAyMyA1LjQzMjA4TDE3Ljg1NyAxMC4yMzdMMTYuMDgzMSAxNi44MDM1TDkuNDc1MTcgMTguNTY1N0w0LjY0MTE4IDEzLjc2MTVMNi40MTUxMSA3LjE5NDMzWiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNOS40NjU2NSAxOC42OUM5LjQ1MzkyIDE4LjY5IDkuNDQyMzEgMTguNjg3NyA5LjQzMTQ5IDE4LjY4MzJDOS40MjA2NyAxOC42Nzg3IDkuNDEwODcgMTguNjcyMSA5LjQwMjY2IDE4LjY2MzhMNC41NDM3OCAxMy44MzQyQzQuNTMyNjEgMTMuODIzMiA0LjUyNDU2IDEzLjgwOTUgNC41MjA0NSAxMy43OTQ0QzQuNTE2MzMgMTMuNzc5NCA0LjUxNjMgMTMuNzYzNSA0LjUyMDM0IDEzLjc0ODRMNi4zMDMwNSA3LjE0NzA5QzYuMzA3MTkgNy4xMzIwMyA2LjMxNTI2IDcuMTE4MzIgNi4zMjY0NSA3LjEwNzM1QzYuMzM3NjQgNy4wOTYzOCA2LjM1MTU1IDcuMDg4NTMgNi4zNjY3NyA3LjA4NDZMMTMuMDA5OCA1LjMxMjlDMTMuMDI1IDUuMzA4OCAxMy4wNDA5IDUuMzA4NzIgMTMuMDU2MSA1LjMxMjY4QzEzLjA3MTMgNS4zMTY2MyAxMy4wODUxIDUuMzI0NDggMTMuMDk2MyA1LjMzNTQzTDE3Ljk1NjYgMTAuMTY1OEMxNy45Njc0IDEwLjE3NjkgMTcuOTc1MiAxMC4xOTA1IDE3Ljk3OTEgMTAuMjA1NEMxNy45ODMxIDEwLjIyMDMgMTcuOTgzMiAxMC4yMzU5IDE3Ljk3OTMgMTAuMjUwOEwxNi4xOTY2IDE2Ljg1MjlDMTYuMTkyNiAxNi44NjggMTYuMTg0NiAxNi44ODE4IDE2LjE3MzQgMTYuODkyOEMxNi4xNjIyIDE2LjkwMzggMTYuMTQ4MiAxNi45MTE2IDE2LjEzMjkgMTYuOTE1NEw5LjQ2NTY1IDE4LjY5Wk00LjcwNDkxIDEzLjc0NDhMOS40OTI3NSAxOC41MDE4TDE2LjAzNjIgMTYuNzU3N0wxNy43OTQgMTAuMjU1MkwxMy4wMDYyIDUuNDk3NDlMNi40NjI3MiA3LjI0MjI5TDQuNzA0OTEgMTMuNzQ0OFoiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTYuMjkxMzMgOS4xODc2N0wxMS4yNTkzIDYuMzQxOTFMMTYuMjI3NCA5LjE4NzY3VjkuMTYxNTFDMTYuMjI3MiA5LjE1NjA1IDE2LjIyNTYgOS4xNTA3MiAxNi4yMjI4IDkuMTQ2MDNDMTYuMjE5OSA5LjE0MTMzIDE2LjIxNiA5LjEzNzQxIDE2LjIxMTMgOS4xMzQ2MkwxMS4yNjU5IDYuMjk2MTNDMTEuMjYxMSA2LjI5MzY0IDExLjI1NTcgNi4yOTIzNCAxMS4yNTAyIDYuMjkyMzRDMTEuMjQ0NyA2LjI5MjM0IDExLjIzOTMgNi4yOTM2NCAxMS4yMzQ0IDYuMjk2MTNMNi4yODg0IDkuMTM0NjJDNi4yODM3NiA5LjEzNzQ0IDYuMjc5OTEgOS4xNDEzOSA2LjI3NzIyIDkuMTQ2MUM2LjI3NDUzIDkuMTUwOCA2LjI3MzA5IDkuMTU2MSA2LjI3MzAyIDkuMTYxNTFWMTQuODM3OEM2LjI3Mjg2IDE0Ljg0MzIgNi4yNzQyMSAxNC44NDg2IDYuMjc2OTIgMTQuODUzM0M2LjI3OTY0IDE0Ljg1ODEgNi4yODM2MSAxNC44NjIgNi4yODg0IDE0Ljg2NDdWMTQuODY0N0w2LjI5MTMzIDkuMTg3NjdaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik02LjM0OTkxIDE0Ljk2NTdMNi4yNjI3NiAxNC45MTdDNi4yNDgzNCAxNC45MDk0IDYuMjM2MjQgMTQuODk4MSA2LjIyNzczIDE0Ljg4NDNDNi4yMTkyMyAxNC44NzA1IDYuMjE0NjMgMTQuODU0NyA2LjIxNDQyIDE0LjgzODVWOS4xNjE1QzYuMjE0NTkgOS4xNDU5NCA2LjIxODc5IDkuMTMwNjggNi4yMjY2MSA5LjExNzJDNi4yMzQ0NCA5LjEwMzcxIDYuMjQ1NjIgOS4wOTI0NCA2LjI1OTA5IDkuMDg0NDdMMTEuMjA1MSA2LjI0OTYyQzExLjIxOSA2LjI0MTU3IDExLjIzNDggNi4yMzczNCAxMS4yNTA5IDYuMjM3MzRDMTEuMjY3IDYuMjM3MzQgMTEuMjgyOCA2LjI0MTU3IDExLjI5NjcgNi4yNDk2MkwxNi4yNDA1IDkuMDgzNzVDMTYuMjU0MSA5LjA5MTYgMTYuMjY1NCA5LjEwMjg1IDE2LjI3MzIgOS4xMTYzNkMxNi4yODEgOS4xMjk4NyAxNi4yODUyIDkuMTQ1MTkgMTYuMjg1MiA5LjE2MDc4VjkuMjg2NUwxMS4yNTkzIDYuNDA4MDRMNi4zNTIxMSA5LjIyMTA5TDYuMzQ5OTEgMTQuOTY1N1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTIxLjY3NjYgNi4wMDkwOEwxMS4yNzQ3IDAuMDYxNzY2OEMxMS4yNyAwLjA1ODk1MTEgMTEuMjY0NSAwLjA1NzQ2NDYgMTEuMjU5IDAuMDU3NDY0NkMxMS4yNTM0IDAuMDU3NDY0NiAxMS4yNDggMC4wNTg5NTExIDExLjI0MzIgMC4wNjE3NjY4TDAuODMyNTgxIDYuMDI1MDdDMC44Mjc5MzUgNi4wMjc5IDAuODI0MDg3IDYuMDMxODQgMC44MjEzOTcgNi4wMzY1NUMwLjgxODcwNyA2LjA0MTI1IDAuODE3MjYzIDYuMDQ2NTUgMC44MTcyIDYuMDUxOTZMMC44MDc2NzggMTcuOTYzM0MwLjgwNzY2OSAxNy45Njg4IDAuODA5MTYyIDE3Ljk3NDIgMC44MTE5OTkgMTcuOTc4OUMwLjgxNDgzNiAxNy45ODM3IDAuODE4OTExIDE3Ljk4NzYgMC44MjM3OTIgMTcuOTkwMkwxMS4yMjQyIDIzLjkzODJDMTEuMjI5MiAyMy45Mzk2IDExLjIzNDUgMjMuOTM5NiAxMS4yMzk2IDIzLjkzODJDMTEuMjQ0OCAyMy45Mzk3IDExLjI1MDQgMjMuOTM5NyAxMS4yNTU3IDIzLjkzODJMMjEuNjY2MyAxNy45NzQyQzIxLjY3MTEgMTcuOTcxNSAyMS42NzUxIDE3Ljk2NzYgMjEuNjc3OCAxNy45NjI5QzIxLjY4MDUgMTcuOTU4MiAyMS42ODE5IDE3Ljk1MjggMjEuNjgxNyAxNy45NDczTDIxLjY5MTIgNi4wMzU5N0MyMS42OTEyIDYuMDMwNjMgMjEuNjg5OSA2LjAyNTM3IDIxLjY4NzMgNi4wMjA2OEMyMS42ODQ4IDYuMDE1OTggMjEuNjgxMSA2LjAxMTk5IDIxLjY3NjYgNi4wMDkwOFY2LjAwOTA4Wk0yMS42MjAyIDE3LjkyN0wxMS4yNDAzIDIzLjg3NTdMMC44NzA2NjcgMTcuOTQ5NUwwLjg3OTQ1NiA2LjA3MDEyTDExLjI1OTMgMC4xMjQyNjNMMjEuNjI5NyA2LjA1NDE0TDIxLjYyMDIgMTcuOTI3WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNMTEuMjQwMyAyNEMxMS4yMjQ2IDIzLjk5OTkgMTEuMjA5MiAyMy45OTU2IDExLjE5NTYgMjMuOTg3N0wwLjc5NDQ5NyAxOC4wNDA0QzAuNzgwODI2IDE4LjAzMjYgMC43Njk0OCAxOC4wMjE0IDAuNzYxNjI4IDE4LjAwNzlDMC43NTM3NzUgMTcuOTk0MyAwLjc0OTcgMTcuOTc5IDAuNzQ5ODE5IDE3Ljk2MzNMMC43NTkzNDEgNi4wNTJDMC43NTkyMTYgNi4wMzYyOSAwLjc2MzM3IDYuMDIwODQgMC43NzEzNjMgNi4wMDcyOEMwLjc3OTM1NiA1Ljk5MzczIDAuNzkwODkxIDUuOTgyNTYgMC44MDQ3NTEgNS45NzQ5N0wxMS4yMTQ3IDAuMDExNjY2OUMxMS4yMjgyIDAuMDA0MTU2NzEgMTEuMjQzNSAwLjAwMDIxMzYyMyAxMS4yNTkgMC4wMDAyMTM2MjNDMTEuMjc0NSAwLjAwMDIxMzYyMyAxMS4yODk3IDAuMDA0MTU2NzEgMTEuMzAzMyAwLjAxMTY2NjlMMjEuNzA1OSA1Ljk1ODk4QzIxLjcxODcgNS45NjY1NCAyMS43Mjk0IDUuOTc3MTQgMjEuNzM3MSA1Ljk4OTgyQzIxLjc0NDggNi4wMDI1IDIxLjc0OTEgNi4wMTY4OCAyMS43NDk4IDYuMDMxNjVMMjEuNzQxIDE3Ljk0OTVDMjEuNzQwNyAxNy45NjQ0IDIxLjczNjQgMTcuOTc4OSAyMS43Mjg3IDE3Ljk5MTZDMjEuNzIxIDE4LjAwNDQgMjEuNzEwMSAxOC4wMTQ5IDIxLjY5NzEgMTguMDIyMkwxMS4yODU3IDIzLjk4NzdDMTEuMjcxOSAyMy45OTU3IDExLjI1NjMgMjQgMTEuMjQwMyAyNFYyNFpNMC45Mjg1MyAxNy45MTI1TDExLjI0MDMgMjMuODA4OUwyMS41NjIzIDE3Ljg5NjVMMjEuNTcxMSA2LjA4NzYxTDExLjI1OTMgMC4xOTA0MzVMMC45MzgwNTIgNi4xMDQzMkwwLjkyODUzIDE3LjkxMjVaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0xMC43MTk1IDE4LjA0NjlDMTAuNzIzOSAxOC4wNDc2IDEwLjcyODMgMTguMDQ3NiAxMC43MzI3IDE4LjA0NjlMMTYuMjM5OCAxNS40OTRDMTYuMjQ0NiAxNS40OTE2IDE2LjI0ODggMTUuNDg4IDE2LjI1MTkgMTUuNDgzNUMxNi4yNTUgMTUuNDc5MSAxNi4yNTY4IDE1LjQ3MzkgMTYuMjU3NCAxNS40Njg1TDE2Ljc4OTggOS40NDcxMUMxNi43OTA0IDkuNDQxNzQgMTYuNzg5NSA5LjQzNjMyIDE2Ljc4NzIgOS40MzE0NEMxNi43ODQ5IDkuNDI2NTcgMTYuNzgxMiA5LjQyMjQzIDE2Ljc3NjcgOS40MTk0OUwxMS43OTg0IDUuOTU4OTVDMTEuNzkzNiA1Ljk1NjEzIDExLjc4ODIgNS45NTQ2NCAxMS43ODI2IDUuOTU0NjRDMTEuNzc3MSA1Ljk1NDY0IDExLjc3MTcgNS45NTYxMyAxMS43NjY5IDUuOTU4OTVMNi4yNjA1NSA4LjUwODk0QzYuMjU1NTYgOC41MTEyNyA2LjI1MTI1IDguNTE0ODMgNi4yNDgwNSA4LjUxOTI4QzYuMjQ0ODQgOC41MjM3NCA2LjI0Mjg0IDguNTI4OTMgNi4yNDIyNCA4LjUzNDM3TDUuNzExOTYgMTQuNTVDNS43MTE2NyAxNC41NTU0IDUuNzEyNzIgMTQuNTYwOSA1LjcxNTAyIDE0LjU2NThDNS43MTczMSAxNC41NzA3IDUuNzIwNzkgMTQuNTc1IDUuNzI1MTUgMTQuNTc4M0wxMC43MDEyIDE4LjA0MTFDMTAuNzA2NiAxOC4wNDQ3IDEwLjcxMyAxOC4wNDY3IDEwLjcxOTUgMTguMDQ2OVpNNi4zMDMwMyA4LjU1NzYzTDExLjc3NzEgNi4wMTk5OUwxNi43MjM5IDkuNDYxNjRMMTYuMTk2NiAxNS40NDI0TDEwLjcyMjUgMTcuOThMNS43NzU2OCAxNC41Mzc2TDYuMzAzMDMgOC41NTc2M1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTEwLjcxOTUgMTguMTA0M0MxMC43MDEyIDE4LjEwNDIgMTAuNjgzMyAxOC4wOTg2IDEwLjY2ODMgMTguMDg4M0w1LjY5MjE5IDE0LjYyNTZDNS42NzkxMiAxNC42MTY4IDUuNjY4NjkgMTQuNjA0NiA1LjY2MTk5IDE0LjU5MDRDNS42NTUyOCAxNC41NzYyIDUuNjUyNTYgMTQuNTYwNSA1LjY1NDExIDE0LjU0NDlMNi4xODQzOCA4LjUyOTI4QzYuMTg1OTUgOC41MTM5MiA2LjE5MTQgOC40OTkyMSA2LjIwMDI0IDguNDg2NUM2LjIwOTA3IDguNDczOCA2LjIyMSA4LjQ2MzUxIDYuMjM0OTIgOC40NTY2MUwxMS43NDI3IDUuOTAzNzFDMTEuNzU2OSA1Ljg5NzQ4IDExLjc3MjUgNS44OTQ4OSAxMS43ODggNS44OTYxNkMxMS44MDM1IDUuODk3NDMgMTEuODE4NCA1LjkwMjUyIDExLjgzMTQgNS45MTA5OEwxNi44MDgyIDkuMzc0NDNDMTYuODIwOSA5LjM4MzM3IDE2LjgzMSA5LjM5NTQ1IDE2LjgzNzYgOS40MDk0N0MxNi44NDQxIDkuNDIzNDkgMTYuODQ2OSA5LjQzODk3IDE2Ljg0NTUgOS40NTQzN0wxNi4zMTUyIDE1LjQ3MDdDMTYuMzEzOSAxNS40ODYzIDE2LjMwODQgMTUuNTAxMyAxNi4yOTkyIDE1LjUxNDFDMTYuMjkwMSAxNS41MjY4IDE2LjI3NzYgMTUuNTM3IDE2LjI2MzIgMTUuNTQzNEwxMC43NDUyIDE4LjEwMTRMMTAuNzE5NSAxOC4xMDQzWk01LjgzNjQ4IDE0LjUwOTNMMTAuNzI4MyAxNy45MTMyTDE2LjE0MTcgMTUuNDA2TDE2LjY2MzEgOS40OTIxNkwxMS43NzEzIDYuMDg2MTFMNi4zNTc5NyA4LjU5NTQxTDUuODM2NDggMTQuNTA5M1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTEwLjEyNDggMTguMzU3MkMxMC4xMjg0IDE4LjM1NzkgMTAuMTMyMiAxOC4zNTc5IDEwLjEzNTggMTguMzU3MkwxNi4yMDk4IDE2LjE1ODJDMTYuMjE1IDE2LjE1NjMgMTYuMjE5NyAxNi4xNTMyIDE2LjIyMzMgMTYuMTQ4OUMxNi4yMjY5IDE2LjE0NDcgMTYuMjI5MyAxNi4xMzk2IDE2LjIzMDMgMTYuMTM0MkwxNy4zNTQ1IDkuODA3NTVDMTcuMzU1NiA5LjgwMjE3IDE3LjM1NTEgOS43OTY2MSAxNy4zNTMyIDkuNzkxNDhDMTcuMzUxMiA5Ljc4NjM2IDE3LjM0NzkgOS43ODE4NiAxNy4zNDM1IDkuNzc4NDhMMTIuMzk1MyA1LjY0OTM3QzEyLjM5MTEgNS42NDU4MSAxMi4zODYxIDUuNjQzNDUgMTIuMzgwNiA1LjY0MjU2QzEyLjM3NTIgNS42NDE2NiAxMi4zNjk2IDUuNjQyMjYgMTIuMzY0NSA1LjY0NDI5TDYuMjg5MSA3Ljg0MzI4QzYuMjgzOTUgNy44NDUwNiA2LjI3OTM1IDcuODQ4MTQgNi4yNzU3NSA3Ljg1MjIyQzYuMjcyMTYgNy44NTYyOSA2LjI2OTY5IDcuODYxMjMgNi4yNjg2IDcuODY2NTNMNS4xNDQzMyAxNC4xOTMyQzUuMTQzNDUgMTQuMTk4NiA1LjE0NCAxNC4yMDQxIDUuMTQ1OTMgMTQuMjA5MkM1LjE0Nzg1IDE0LjIxNDMgNS4xNTEwOSAxNC4yMTg4IDUuMTU1MzIgMTQuMjIyM0wxMC4xMDU4IDE4LjM0OTlDMTAuMTEwOSAxOC4zNTQ2IDEwLjExNzggMTguMzU3MiAxMC4xMjQ4IDE4LjM1NzJWMTguMzU3MlpNNi4zMjY0NiA3Ljg5MjdMMTIuMzY3NSA1LjcwNjA1TDE3LjI5MDggOS44MTA0NkwxNi4xNzI0IDE2LjEwMTVMMTAuMTMyMSAxOC4yOTFMNS4yMDk1MSAxNC4xODY2TDYuMzI2NDYgNy44OTI3WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNMTAuMTI0OCAxOC40MTUzQzEwLjEwNDYgMTguNDE1IDEwLjA4NSAxOC40MDgxIDEwLjA2OTEgMTguMzk1N0w1LjExNzk2IDE0LjI2NjZDNS4xMDU3NCAxNC4yNTY3IDUuMDk2NDQgMTQuMjQzNyA1LjA5MTAzIDE0LjIyOUM1LjA4NTYxIDE0LjIxNDMgNS4wODQyOSAxNC4xOTg0IDUuMDg3MiAxNC4xODNMNi4yMTE0NiA3Ljg1NjM2QzYuMjE0NTQgNy44NDEyNiA2LjIyMTM4IDcuODI3MTYgNi4yMzEzNiA3LjgxNTM2QzYuMjQxMzQgNy44MDM1NSA2LjI1NDE0IDcuNzk0NDEgNi4yNjg1OSA3Ljc4ODc3TDEyLjM0MzMgNS41ODk3OEMxMi4zNTggNS41ODQ1MyAxMi4zNzM5IDUuNTgzMTggMTIuMzg5MyA1LjU4NTg2QzEyLjQwNDcgNS41ODg1MyAxMi40MTkxIDUuNTk1MTQgMTIuNDMxMiA1LjYwNTA0TDE3LjM4MTYgOS43MzI3QzE3LjM5MzYgOS43NDI2NCAxNy40MDI3IDkuNzU1NTEgMTcuNDA4MSA5Ljc3MDA1QzE3LjQxMzUgOS43ODQ1OCAxNy40MTUgOS44MDAyNyAxNy40MTI0IDkuODE1NTRMMTYuMjg4MSAxNi4xNDI5QzE2LjI4NTQgMTYuMTU4MSAxNi4yNzg4IDE2LjE3MjMgMTYuMjY4OSAxNi4xODQxQzE2LjI1OTEgMTYuMTk2IDE2LjI0NjIgMTYuMjA1MSAxNi4yMzE3IDE2LjIxMDVMMTAuMTI0OCAxOC40MTUzWk01LjI3MjUgMTQuMTYzNEwxMC4xNDMxIDE4LjIyNTZMMTYuMTIxMSAxNi4wNjAxTDE3LjIyOTMgOS44MzU4OUwxMi4zNTY1IDUuNzc0MzZMNi4zNzg0NiA3LjkzNzc1TDUuMjcyNSAxNC4xNjM0WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNOC42NTQ4NCAyLjQxOTE4TDEuNTk0MyA5LjQyNDU3QzEuNTkwNDEgOS40MjgzOCAxLjU4NzYxIDkuNDMzMTUgMS41ODYxOSA5LjQzODM4QzEuNTg0NzggOS40NDM2MiAxLjU4NDc5IDkuNDQ5MTQgMS41ODYyNCA5LjQ1NDM3TDQuMTU5MjQgMTkuMDEyN0M0LjE2MDcxIDE5LjAxOCA0LjE2MzU4IDE5LjAyMyA0LjE2NzU2IDE5LjAyNjlDNC4xNzE1NCAxOS4wMzA5IDQuMTc2NSAxOS4wMzM3IDQuMTgxOTQgMTkuMDM1MkwxMy44MTU1IDIxLjU4ODFIMTMuODIzNUMxMy44Mjc2IDIxLjU4ODEgMTMuODMxNiAyMS41ODc0IDEzLjgzNTQgMjEuNTg1OUMxMy44MzkyIDIxLjU4NDQgMTMuODQyNiAyMS41ODIyIDEzLjg0NTUgMjEuNTc5NEwyMC45MDUzIDE0LjU3NEMyMC45MDkzIDE0LjU3MDIgMjAuOTEyMSAxNC41NjU0IDIwLjkxMzUgMTQuNTYwMkMyMC45MTUgMTQuNTU0OSAyMC45MTQ5IDE0LjU0OTQgMjAuOTEzNCAxNC41NDQyTDE4LjM0MDQgNC45ODY2MUMxOC4zMzkxIDQuOTgxMzQgMTguMzM2MyA0Ljk3NjUyIDE4LjMzMjUgNC45NzI2N0MxOC4zMjg2IDQuOTY4ODMgMTguMzIzNyA0Ljk2NjExIDE4LjMxODQgNC45NjQ4MUw4LjY4NDg3IDIuNDExMTlDOC42Nzk1OSAyLjQxMDAzIDguNjc0MSAyLjQxMDE1IDguNjY4ODcgMi40MTE1NEM4LjY2MzY1IDIuNDEyOTMgOC42NTg4MyAyLjQxNTU1IDguNjU0ODQgMi40MTkxOFYyLjQxOTE4Wk0xOC4yODQ3IDUuMDIwMDRMMjAuODQ4MiAxNC41NDM0TDEzLjgxMzMgMjEuNTIzNEw0LjIxNDE3IDE4Ljk3OTlMMS42NTA2OSA5LjQ1NTgyTDguNjgxOTQgMi40NzU4NkwxOC4yODQ3IDUuMDIwMDRaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0xMy44MjM2IDIxLjY0NjlMMTMuNzk3OSAyMS42NDMzTDQuMTY2NTcgMTkuMDkxMUM0LjE1MTQ2IDE5LjA4NjkgNC4xMzc3MSAxOS4wNzg4IDQuMTI2NjcgMTkuMDY3OEM0LjExNTYzIDE5LjA1NjcgNC4xMDc2NyAxOS4wNDMgNC4xMDM1OCAxOS4wMjc5TDEuNTI5ODUgOS40Njk2M0MxLjUyNTg2IDkuNDU0NjEgMS41MjU4NiA5LjQzODgyIDEuNTI5ODQgOS40MjM3OUMxLjUzMzgxIDkuNDA4NzcgMS41NDE2NCA5LjM5NTAyIDEuNTUyNTUgOS4zODM4OEw4LjYxMzgzIDIuMzc4NDlDOC42MjQ5OSAyLjM2Nzc4IDguNjM4NzIgMi4zNjAwOSA4LjY1MzcyIDIuMzU2MTVDOC42Njg3MiAyLjM1MjIgOC42ODQ0OSAyLjM1MjE0IDguNjk5NTMgMi4zNTU5NkwxOC4zMzMxIDQuOTA4ODZDMTguMzQ4MiA0LjkxMjkyIDE4LjM2MjEgNC45MjA4MiAxOC4zNzMyIDQuOTMxNzdDMTguMzg0NCA0Ljk0MjcyIDE4LjM5MjUgNC45NTYzNiAxOC4zOTY4IDQuOTcxMzZMMjAuOTY5OCAxNC41MzRDMjAuOTc0MSAxNC41NDkxIDIwLjk3NDEgMTQuNTY1MSAyMC45Njk4IDE0LjU4MDJDMjAuOTY1NSAxNC41OTU0IDIwLjk1NzIgMTQuNjA5IDIwLjk0NTYgMTQuNjE5OEwxMy44ODY1IDIxLjYyNDRDMTMuODY5MyAyMS42Mzk3IDEzLjg0NjcgMjEuNjQ3OCAxMy44MjM2IDIxLjY0NjlWMjEuNjQ2OVpNNC4yNjU0NCAxOC45MzI3TDEzLjc5NjUgMjEuNDU5NUwyMC43ODM4IDE0LjUyNjdMMTguMjM3MSA1LjA2NzI4TDguNzAzMTkgMi41NDM0NUwxLjcxNTg4IDkuNDc2MTdMNC4yNjU0NCAxOC45MzI3WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNNy4xMDM2MSAxOS4xNTY1TDE1LjM4NTggMTkuMTUwN0MxNS4zOTEzIDE5LjE1MDggMTUuMzk2NyAxOS4xNDkzIDE1LjQwMTMgMTkuMTQ2NUMxNS40MDYgMTkuMTQzNiAxNS40MDk3IDE5LjEzOTYgMTUuNDEyMiAxOS4xMzQ3TDE5LjU1OTIgMTIuMDA4N0MxOS41NjE3IDEyLjAwNCAxOS41NjMgMTEuOTk4OCAxOS41NjMgMTEuOTkzNUMxOS41NjMgMTEuOTg4MSAxOS41NjE3IDExLjk4MjkgMTkuNTU5MiAxMS45NzgyTDE1LjQyMzkgNC44NTY1M0MxNS40MjEzIDQuODUxNjkgMTUuNDE3NCA0Ljg0NzY1IDE1LjQxMjYgNC44NDQ4M0MxNS40MDc4IDQuODQyMDIgMTUuNDAyNCA0Ljg0MDU0IDE1LjM5NjggNC44NDA1NUw3LjExNDU5IDQuODQ5MjdDNy4xMDkxNCA0Ljg0OTMzIDcuMTAzOCA0Ljg1MDc2IDcuMDk5MDYgNC44NTM0M0M3LjA5NDMyIDQuODU2MSA3LjA5MDM0IDQuODU5OTIgNy4wODc0OSA0Ljg2NDUzTDIuOTQwNTIgMTEuOTkwNUMyLjkzODAxIDExLjk5NTQgMi45MzY3MSAxMi4wMDA3IDIuOTM2NzEgMTIuMDA2MkMyLjkzNjcxIDEyLjAxMTYgMi45MzgwMSAxMi4wMTcgMi45NDA1MiAxMi4wMjE4TDcuMDc2NTEgMTkuMTQzNUM3LjA3OTQ2IDE5LjE0NzggNy4wODM1MiAxOS4xNTEzIDcuMDg4MjggMTkuMTUzNkM3LjA5MzA0IDE5LjE1NTkgNy4wOTgzMyAxOS4xNTY5IDcuMTAzNjEgMTkuMTU2NVpNNy4xMzIxNyA0LjkxMzIyTDE1LjM3ODUgNC45MDc0TDE5LjQ5OTggMTEuOTkwNUwxNS4zNzEyIDE5LjA4NTNMNy4xMjE5MiAxOS4wOTQ4TDMuMDA0MjQgMTIuMDA2NUw3LjEzMjE3IDQuOTEzMjJaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik03LjEwMzU4IDE5LjIxNDdDNy4wODc2OCAxOS4yMTQ2IDcuMDcyMDggMTkuMjEwNCA3LjA1ODMzIDE5LjIwMjVDNy4wNDQ1OCAxOS4xOTQ2IDcuMDMzMTYgMTkuMTgzMyA3LjAyNTIxIDE5LjE2OTZMMi44OTA2OSAxMi4wNDhDMi44ODI3NyAxMi4wMzQ1IDIuODc4NiAxMi4wMTkyIDIuODc4NiAxMi4wMDM2QzIuODc4NiAxMS45ODgxIDIuODgyNzcgMTEuOTcyOCAyLjg5MDY5IDExLjk1OTNMNy4wMzY5MyA0LjgzNjE5QzcuMDQ0NzkgNC44MjI2OCA3LjA1NjExIDQuODExNDYgNy4wNjk3NCA0LjgwMzY4QzcuMDgzMzggNC43OTU5IDcuMDk4ODQgNC43OTE4MiA3LjExNDU2IDQuNzkxODdMMTUuMzk4MyA0Ljc4NTMyQzE1LjQxMzkgNC43ODUyOCAxNS40MjkzIDQuNzg5MjggMTUuNDQyOSA0Ljc5NjkyQzE1LjQ1NjUgNC44MDQ1NyAxNS40Njc5IDQuODE1NiAxNS40NzU5IDQuODI4OTNMMTkuNjExOSAxMS45NTA2QzE5LjYxOTQgMTEuOTY0MiAxOS42MjM0IDExLjk3OTQgMTkuNjIzNCAxMS45OTQ5QzE5LjYyMzQgMTIuMDEwNCAxOS42MTk0IDEyLjAyNTcgMTkuNjExOSAxMi4wMzkyTDE1LjQ2NDkgMTkuMTY1M0MxNS40NTc1IDE5LjE3ODIgMTUuNDQ2OSAxOS4xODkxIDE1LjQzNDEgMTkuMTk2OEMxNS40MjEyIDE5LjIwNDYgMTUuNDA2NyAxOS4yMDkgMTUuMzkxNyAxOS4yMDk2TDcuMTAzNTggMTkuMjE0N1pNMy4wNzA4NiAxMi4wMDU4TDcuMTU0ODUgMTkuMDM5NUwxNS4zMzM4IDE5LjAzM0wxOS40MjY2IDExLjk5MDZMMTUuMzQ0OCA0Ljk2MjY0TDcuMTY1ODMgNC45NjkxOEwzLjA3MDg2IDEyLjAwNThaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik02LjE4NjU5IDE5LjIwMDlMMTQuOTY0NyAxOS45NTY2QzE0Ljk2OTcgMTkuOTU2NSAxNC45NzQ2IDE5Ljk1NTMgMTQuOTc5IDE5Ljk1M0MxNC45ODM0IDE5Ljk1MDggMTQuOTg3MyAxOS45NDc1IDE0Ljk5MDMgMTkuOTQzNkwyMC4wNTA2IDEyLjc3MjVDMjAuMDUzMyAxMi43Njc4IDIwLjA1NDcgMTIuNzYyNiAyMC4wNTQ3IDEyLjc1NzJDMjAuMDU0NyAxMi43NTE5IDIwLjA1MzMgMTIuNzQ2NiAyMC4wNTA2IDEyLjc0MkwxNi4zMzg3IDQuODE2NTdDMTYuMzM2NCA0LjgxMTU3IDE2LjMzMjggNC44MDcyNiAxNi4zMjgzIDQuODA0MDdDMTYuMzIzOCA0LjgwMDg5IDE2LjMxODYgNC43OTg5MyAxNi4zMTMxIDQuNzk4NEw3LjUzNDk4IDQuMDQzMzZDNy41Mjk1OCA0LjA0Mjg0IDcuNTI0MTQgNC4wNDM3OSA3LjUxOTI0IDQuMDQ2MDlDNy41MTQzNCA0LjA0ODM5IDcuNTEwMTYgNC4wNTE5NyA3LjUwNzE0IDQuMDU2NDRMMi40NDY4NCAxMS4yMjY4QzIuNDQ0IDExLjIzMTUgMi40NDI1IDExLjIzNjkgMi40NDI1IDExLjI0MjRDMi40NDI1IDExLjI0NzkgMi40NDQgMTEuMjUzMyAyLjQ0Njg0IDExLjI1OEw2LjE2MDk1IDE5LjE4NDlDNi4xNjM0NyAxOS4xODk1IDYuMTY3MTYgMTkuMTkzNCA2LjE3MTY1IDE5LjE5NjJDNi4xNzYxNCAxOS4xOTkgNi4xODEyOSAxOS4yMDA2IDYuMTg2NTkgMTkuMjAwOVYxOS4yMDA5Wk03LjU0ODE2IDQuMTA2NThMMTYuMjg5NiA0Ljg1ODcyTDE5Ljk5MiAxMi43NTIxTDE0Ljk1MjIgMTkuODkyN0w2LjIxMDAyIDE5LjE0MDZMMi41MDc2MyAxMS4yNDc5TDcuNTQ4MTYgNC4xMDY1OFoiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTE0Ljk2NzYgMjAuMDE0MUgxNC45NDg2TDYuMTgyMjEgMTkuMjU3NkM2LjE2NjU5IDE5LjI1NjUgNi4xNTE1NSAxOS4yNTEzIDYuMTM4NjYgMTkuMjQyNUM2LjEyNTc3IDE5LjIzMzYgNi4xMTU1MiAxOS4yMjE1IDYuMTA4OTcgMTkuMjA3NEwyLjM5MTIgMTEuMjgyQzIuMzg0NjkgMTEuMjY3OCAyLjM4MjAxIDExLjI1MjIgMi4zODM0MiAxMS4yMzY2QzIuMzg0ODQgMTEuMjIxMSAyLjM5MDI5IDExLjIwNjIgMi4zOTkyNiAxMS4xOTM0TDcuNDU5NTYgNC4wMjM3NEM3LjQ2Nzg0IDQuMDEwNTMgNy40Nzk3NSAzLjk5OTk1IDcuNDkzOSAzLjk5MzI1QzcuNTA4MDUgMy45ODY1NiA3LjUyMzg0IDMuOTg0MDIgNy41MzkzOSAzLjk4NTk1TDE2LjMxODIgNC43NDA5OUMxNi4zMzM4IDQuNzQyMDUgMTYuMzQ4OSA0Ljc0NzI3IDE2LjM2MTggNC43NTYwOUMxNi4zNzQ2IDQuNzY0OTEgMTYuMzg0OSA0Ljc3NzAyIDE2LjM5MTQgNC43OTExM0wyMC4xMDg1IDEyLjcxNzNDMjAuMTE1MiAxMi43MzExIDIwLjExODIgMTIuNzQ2NCAyMC4xMTcgMTIuNzYxN0MyMC4xMTU4IDEyLjc3NyAyMC4xMTA2IDEyLjc5MTggMjAuMTAxOSAxMi44MDQ1TDE1LjA0MDkgMTkuOTc1NUMxNS4wMzI3IDE5Ljk4NzMgMTUuMDIxOCAxOS45OTcgMTUuMDA5IDIwLjAwMzdDMTQuOTk2MyAyMC4wMTA0IDE0Ljk4MiAyMC4wMTQgMTQuOTY3NiAyMC4wMTQxVjIwLjAxNDFaTTYuMjUxNzkgMTkuMDg2MUwxNC45MjY2IDE5LjgzMzFMMTkuOTI3NiAxMi43NDU2TDE2LjI1MDggNC45MTMyMkw3LjU3NjAxIDQuMTY2OUwyLjU3NTA0IDExLjI1MzdMNi4yNTE3OSAxOS4wODYxWiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNNS4xODc1NyAxOS4xNDQyQzUuMTg5NDcgMTkuMTQ5MyA1LjE5MjcxIDE5LjE1MzggNS4xOTY5NiAxOS4xNTczQzUuMjAxMjEgMTkuMTYwNyA1LjIwNjMyIDE5LjE2MyA1LjIxMTc0IDE5LjE2MzhMMTQuNDQwMyAyMC43NzJIMTQuNDQ2MUMxNC40NTA3IDIwLjc3MiAxNC40NTUyIDIwLjc3MSAxNC40NTk0IDIwLjc2OTFDMTQuNDYzNiAyMC43NjczIDE0LjQ2NzMgMjAuNzY0NSAxNC40NzAzIDIwLjc2MTFMMjAuNTAyNSAxMy42Mjc4QzIwLjUwNjEgMTMuNjIzNyAyMC41MDg1IDEzLjYxODcgMjAuNTA5NSAxMy42MTMzQzIwLjUxMDYgMTMuNjA4IDIwLjUxMDIgMTMuNjAyNCAyMC41MDg0IDEzLjU5NzNMMTcuMzEyMSA0Ljg1NTgxQzE3LjMxMDQgNC44NTA2NSAxNy4zMDczIDQuODQ2MDUgMTcuMzAzMiA0Ljg0MjQ3QzE3LjI5OSA0LjgzODkgMTcuMjk0IDQuODM2NDcgMTcuMjg4NiA0LjgzNTQ2TDguMDYwMTMgMy4yMjhDOC4wNTQ3OCAzLjIyNzA0IDguMDQ5MjcgMy4yMjc0NyA4LjA0NDEzIDMuMjI5MjZDOC4wMzkgMy4yMzEwNCA4LjAzNDQyIDMuMjM0MTEgOC4wMzA4NCAzLjIzODE3TDEuOTk0OTUgMTAuMzcyMkMxLjk5MTM3IDEwLjM3NjMgMS45ODg5NSAxMC4zODEzIDEuOTg3OTIgMTAuMzg2N0MxLjk4Njg5IDEwLjM5MiAxLjk4NzMgMTAuMzk3NiAxLjk4OTA5IDEwLjQwMjdMNS4xODc1NyAxOS4xNDQyWk04LjA2MzA2IDMuMjkxOTVMMTcuMjU5NCA0Ljg5MDY5TDIwLjQ0NjEgMTMuNTk4N0wxNC40MzY2IDIwLjcxMUw1LjI0MDMxIDE5LjExMjJMMi4wNTM1NCAxMC4zOTgzTDguMDYzMDYgMy4yOTE5NVoiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTE0LjQ0NjEgMjAuODMwMUgxNC40MzA3TDUuMjAyMjMgMTkuMjIyN0M1LjE4NjcyIDE5LjIxOTkgNS4xNzIyMSAxOS4yMTMxIDUuMTYwMTQgMTkuMjAzQzUuMTQ4MDcgMTkuMTkyOSA1LjEzODg0IDE5LjE3OTkgNS4xMzMzOCAxOS4xNjUzTDEuOTM0MTYgMTAuNDIyM0MxLjkyODgxIDEwLjQwNzYgMS45Mjc0MSAxMC4zOTE4IDEuOTMwMTEgMTAuMzc2M0MxLjkzMjgxIDEwLjM2MDkgMS45Mzk1IDEwLjM0NjUgMS45NDk1NCAxMC4zMzQ0TDcuOTgyNSAzLjIwMTExQzcuOTkyNjIgMy4xODk1NyA4LjAwNTUxIDMuMTgwNzIgOC4wMTk5NiAzLjE3NTM5QzguMDM0NDIgMy4xNzAwNiA4LjA1IDMuMTY4NDEgOC4wNjUyNiAzLjE3MDU5TDE3LjI5ODIgNC43Nzg3OEMxNy4zMTM2IDQuNzgxNTMgMTcuMzI4MSA0Ljc4ODE5IDE3LjM0MDEgNC43OTgxMkMxNy4zNTIyIDQuODA4MDYgMTcuMzYxNCA0LjgyMDkyIDE3LjM2NyA0LjgzNTQ2TDIwLjU2NTUgMTMuNTc3N0MyMC41NzA5IDEzLjU5MjMgMjAuNTcyMyAxMy42MDggMjAuNTY5NiAxMy42MjMzQzIwLjU2NjkgMTMuNjM4NiAyMC41NjAyIDEzLjY1MjkgMjAuNTUwMSAxMy42NjQ5TDE0LjUxOTQgMjAuNzk4MkMxNC41MTA2IDIwLjgwODkgMTQuNDk5NCAyMC44MTczIDE0LjQ4NjYgMjAuODIyOUMxNC40NzM5IDIwLjgyODUgMTQuNDYgMjAuODMwOSAxNC40NDYxIDIwLjgzMDFWMjAuODMwMVpNNS4yODM1MyAxOS4wNTQ4TDE0LjQxMzkgMjAuNjQ0OEwyMC4zNzg3IDEzLjU4OTNMMTcuMjE2OSA0Ljk0MTU2TDguMDg2NSAzLjM1NDQ0TDIuMTE5NDYgMTAuNDA5M0w1LjI4MzUzIDE5LjA1NDhaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik03Ljk1NTQgMTkuMDM5NUwxNS43MTAzIDE4LjM2MDFDMTUuNzE1NyAxOC4zNTk1IDE1LjcyMDkgMTguMzU3NyAxNS43MjU0IDE4LjM1NDZDMTUuNzI5OCAxOC4zNTE2IDE1LjczMzUgMTguMzQ3NSAxNS43MzU5IDE4LjM0MjZMMTkuMDMxOCAxMS4zMzIyQzE5LjAzNDUgMTEuMzI3NSAxOS4wMzU5IDExLjMyMjMgMTkuMDM1OSAxMS4zMTY5QzE5LjAzNTkgMTEuMzExNSAxOS4wMzQ1IDExLjMwNjMgMTkuMDMxOCAxMS4zMDE2TDE0LjU3MTQgNC45NzA2M0MxNC41NjgyIDQuOTY2MjcgMTQuNTY0IDQuOTYyNzcgMTQuNTU5MiA0Ljk2MDQ4QzE0LjU1NDMgNC45NTgxOSAxNC41NDg5IDQuOTU3MTggMTQuNTQzNSA0Ljk1NzU1TDYuNzg2NDYgNS42Mzg0NkM2Ljc4MTAxIDUuNjM4ODUgNi43NzU3NiA1LjY0MDY3IDYuNzcxMjYgNS42NDM3NEM2Ljc2Njc1IDUuNjQ2OCA2Ljc2MzE1IDUuNjUxIDYuNzYwODIgNS42NTU5MUwzLjQ2NDkyIDEyLjY2NTdDMy40NjIyMyAxMi42NzA0IDMuNDYwODIgMTIuNjc1OCAzLjQ2MDgyIDEyLjY4MTNDMy40NjA4MiAxMi42ODY3IDMuNDYyMjMgMTIuNjkyMSAzLjQ2NDkyIDEyLjY5NjlMNy45Mjc1NyAxOS4wMjc5QzcuOTMwOSAxOS4wMzIgNy45MzUxOCAxOS4wMzUxIDcuOTQwMDMgMTkuMDM3MkM3Ljk0NDg4IDE5LjAzOTIgNy45NTAxNiAxOS4wNCA3Ljk1NTQgMTkuMDM5NVYxOS4wMzk1Wk02LjgwOTkgNS42OTgwNUwxNC41Mjg5IDUuMDIyMjJMMTguOTY4OCAxMS4zMjQyTDE1LjY4OTggMTguMzAwNUw3Ljk3MDc4IDE4Ljk3NjNMMy41MzMwNCAxMi42NzU4TDYuODA5OSA1LjY5ODA1WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNNy45NjA0OSAxOS4wOTg0SDcuOTU1MzZDNy45NDEwNSAxOS4wOTg1IDcuOTI2OTMgMTkuMDk1MiA3LjkxNDE5IDE5LjA4ODdDNy45MDE0NCAxOS4wODIzIDcuODkwNDQgMTkuMDcyOSA3Ljg4MjEyIDE5LjA2MTNMMy40MjE2NyAxMi43Mjk2QzMuNDEyNyAxMi43MTY5IDMuNDA3MjQgMTIuNzAyMSAzLjQwNTgyIDEyLjY4NjdDMy40MDQ0MSAxMi42NzEzIDMuNDA3MSAxMi42NTU3IDMuNDEzNjEgMTIuNjQxN0w2LjcwOTUxIDUuNjMxMkM2LjcxNjI2IDUuNjE3MTcgNi43MjY1NSA1LjYwNTExIDYuNzM5MzkgNS41OTYyQzYuNzUyMjIgNS41ODcyOSA2Ljc2NzE2IDUuNTgxODIgNi43ODI3NSA1LjU4MDMzTDE0LjUzOTEgNC45MDE1OUMxNC41NTQ2IDQuOTAwNDggMTQuNTcwMSA0LjkwMzMgMTQuNTg0MiA0LjkwOTc4QzE0LjU5ODMgNC45MTYyNiAxNC42MTA1IDQuOTI2MiAxNC42MTk3IDQuOTM4NjVMMTkuMDgwMSAxMS4yNjk3QzE5LjA4OTMgMTEuMjgyNCAxOS4wOTQ5IDExLjI5NzMgMTkuMDk2MyAxMS4zMTI5QzE5LjA5NzcgMTEuMzI4NSAxOS4wOTQ5IDExLjM0NDIgMTkuMDg4MiAxMS4zNTgzTDE1Ljc5MjMgMTguMzY4MUMxNS43ODU2IDE4LjM4MjIgMTUuNzc1NCAxOC4zOTQzIDE1Ljc2MjUgMTguNDAzMkMxNS43NDk3IDE4LjQxMjIgMTUuNzM0NyAxOC40MTc2IDE1LjcxOSAxOC40MTg5TDcuOTYwNDkgMTkuMDk4NFpNMy41OTc0NSAxMi42N0w3Ljk5OTMxIDE4LjkxOTZMMTUuNjUwOSAxOC4yNDg5TDE4LjkwMjEgMTEuMzMxNEwxNC41MDEgNS4wODE4MUw2Ljg0ODY3IDUuNzUzMjhMMy41OTc0NSAxMi42N1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTguNzQzNDggMTguODYzSDguNzQ5MzRMMTUuOTU0OSAxNy41OTdDMTUuOTYwNCAxNy41OTYxIDE1Ljk2NTUgMTcuNTkzNyAxNS45Njk4IDE3LjU5MDFDMTUuOTc0IDE3LjU4NjUgMTUuOTc3MiAxNy41ODE5IDE1Ljk3OTEgMTcuNTc2N0wxOC40ODU0IDEwLjc0NTdDMTguNDg3MyAxMC43NDA2IDE4LjQ4NzcgMTAuNzM1IDE4LjQ4NjcgMTAuNzI5N0MxOC40ODU3IDEwLjcyNDMgMTguNDgzMiAxMC43MTkzIDE4LjQ3OTYgMTAuNzE1MkwxMy43ODAzIDUuMTQ3OTRDMTMuNzc2OSA1LjE0MzYzIDEzLjc3MjQgNS4xNDAzMyAxMy43NjcyIDUuMTM4NDFDMTMuNzYyMSA1LjEzNjQ5IDEzLjc1NjUgNS4xMzYwMSAxMy43NTExIDUuMTM3MDRMNi41NDQ3NSA2LjQwMzY4QzYuNTM5NDYgNi40MDQ2MyA2LjUzNDUxIDYuNDA2OTUgNi41MzAzOSA2LjQxMDM5QzYuNTI2MjggNi40MTM4MyA2LjUyMzE1IDYuNDE4MjkgNi41MjEzMiA2LjQyMzNMNC4wMTQ5NyAxMy4yNTQzQzQuMDEyOTIgMTMuMjU5NCA0LjAxMjMyIDEzLjI2NDkgNC4wMTMyMyAxMy4yNzAzQzQuMDE0MTMgMTMuMjc1NiA0LjAxNjUxIDEzLjI4MDcgNC4wMjAxIDEzLjI4NDhMOC43MjAwNSAxOC44NTA2QzguNzIyNzQgMTguODU0MyA4LjcyNjI1IDE4Ljg1NzMgOC43MzAzMSAxOC44NTk1QzguNzM0MzggMTguODYxNiA4LjczODg4IDE4Ljg2MjggOC43NDM0OCAxOC44NjNWMTguODYzWk02LjU3MzMyIDYuNDYxODJMMTMuNzQzNyA1LjIwMTcyTDE4LjQyMDIgMTAuNzM5OUwxNS45MyAxNy41MzgyTDguNzU5NiAxOC43OTgzTDQuMDc5NDIgMTMuMjYwMUw2LjU3MzMyIDYuNDYxODJaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik04Ljc0MzUgMTguOTIwNEM4LjczMDYyIDE4LjkyMDMgOC43MTc5IDE4LjkxNzYgOC43MDYxNiAxOC45MTIzQzguNjk0NDIgMTguOTA3MSA4LjY4Mzk0IDE4Ljg5OTQgOC42NzUzOSAxOC44ODk4TDMuOTcyNSAxMy4zMjMzQzMuOTYyNDYgMTMuMzExNCAzLjk1NTc2IDEzLjI5NzEgMy45NTMwNiAxMy4yODE4QzMuOTUwMzYgMTMuMjY2NSAzLjk1MTc2IDEzLjI1MDcgMy45NTcxMiAxMy4yMzYxTDYuNDYzNDcgNi40MDUxNEM2LjQ2ODg1IDYuMzkwNjEgNi40Nzc5NyA2LjM3Nzc0IDYuNDg5OTIgNi4zNjc3OUM2LjUwMTg3IDYuMzU3ODUgNi41MTYyMyA2LjM1MTE4IDYuNTMxNTkgNi4zNDg0NUwxMy43Mzc5IDUuMDgxODJDMTMuNzUzMiA1LjA3OTU1IDEzLjc2ODggNS4wODEwOSAxMy43ODM0IDUuMDg2MjlDMTMuNzk4IDUuMDkxNDkgMTMuODExIDUuMTAwMTkgMTMuODIxNCA1LjExMTYxTDE4LjUyMTMgMTAuNjc4MUMxOC41MzE0IDEwLjY5IDE4LjUzODIgMTAuNzA0NCAxOC41NDA5IDEwLjcxOTdDMTguNTQzNiAxMC43MzUgMTguNTQyMiAxMC43NTA4IDE4LjUzNjcgMTAuNzY1M0wxNi4wMzA0IDE3LjU5NjNDMTYuMDI1MSAxNy42MTEyIDE2LjAxNTkgMTcuNjI0NSAxNi4wMDM2IDE3LjYzNDZDMTUuOTkxMyAxNy42NDQ3IDE1Ljk3NjUgMTcuNjUxMyAxNS45NjA4IDE3LjY1MzdMOC43NDM1IDE4LjkyMDRaTTQuMTQ2MDkgMTMuMjQ4NUw4Ljc3OTM5IDE4LjczNThMMTUuODgzOSAxNy40ODczTDE4LjM1NDMgMTAuNzU1MkwxMy43MjEgNS4yNjQyMkw2LjYxNjU1IDYuNTEyNjlMNC4xNDYwOSAxMy4yNDg1WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNOS4zOTYwOCAxLjYwOTY0TDEuMjYyNTQgOC4zODM5NEMxLjI1ODMyIDguMzg3NCAxLjI1NTE0IDguMzkxOTMgMS4yNTMzMyA4LjM5NzA1QzEuMjUxNTMgOC40MDIxOCAxLjI1MTE2IDguNDA3NjkgMS4yNTIyOSA4LjQxM0wzLjA4MzM0IDE4Ljc3OTRDMy4wODQ0NSAxOC43ODQ4IDMuMDg2OTEgMTguNzg5OCAzLjA5MDUgMTguNzk0QzMuMDk0MDggMTguNzk4MiAzLjA5ODY3IDE4LjgwMTQgMy4xMDM4NSAxOC44MDM0TDEzLjA3NSAyMi4zOTU0QzEzLjA3ODQgMjIuMzk2MiAxMy4wODE5IDIyLjM5NjIgMTMuMDg1MyAyMi4zOTU0QzEzLjA5MjcgMjIuMzk1NSAxMy4wOTk4IDIyLjM5MzIgMTMuMTA1OCAyMi4zODg5TDIxLjI0MjMgMTUuNjE0NkMyMS4yNDY1IDE1LjYxMDkgMjEuMjQ5NiAxNS42MDYzIDIxLjI1MTYgMTUuNjAxMUMyMS4yNTM1IDE1LjU5NTkgMjEuMjU0MSAxNS41OTAzIDIxLjI1MzMgMTUuNTg0OEwxOS40MjIyIDUuMjE4NDNDMTkuNDIxMiA1LjIxMzEgMTkuNDE4NyA1LjIwODEzIDE5LjQxNTEgNS4yMDQwNEMxOS40MTE1IDUuMTk5OTUgMTkuNDA2OSA1LjE5Njg5IDE5LjQwMTcgNS4xOTUxOEw5LjQyNjg1IDEuNjA0NTVDOS40MjE3NiAxLjYwMjQ0IDkuNDE2MTcgMS42MDE4IDkuNDEwNzMgMS42MDI3QzkuNDA1MjggMS42MDM2IDkuNDAwMjEgMS42MDYgOS4zOTYwOCAxLjYwOTY0Wk0yMS4xODQ0IDE1LjU3OTdMMTMuMDc1OCAyMi4zMzA4TDMuMTQwNDcgMTguNzQ4OUwxLjMxMzA4IDguNDIwMjdMOS40MjI0NSAxLjY3MTQxTDE5LjM1OTIgNS4yNDgyM0wyMS4xODQ0IDE1LjU3OTdaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0xMy4wODM4IDIyLjQ1NUwxMy4wNTE2IDIyLjQ0ODVMMy4wODI2MSAxOC44NTcxQzMuMDY3NyAxOC44NTE5IDMuMDU0NDggMTguODQyOCAzLjA0NDMgMTguODMwOEMzLjAzNDEzIDE4LjgxODggMy4wMjczOCAxOC44MDQzIDMuMDI0NzUgMTguNzg4OEwxLjE4OTMgOC40MjMxOEMxLjE4Njc4IDguNDA3OCAxLjE4ODI4IDguMzkyMDQgMS4xOTM2NyA4LjM3NzRDMS4xOTkwNSA4LjM2Mjc3IDEuMjA4MTQgOC4zNDk3NSAxLjIyMDA2IDguMzM5NjFMOS4zNTcyNyAxLjU2NTMxQzkuMzY5MzIgMS41NTU2NyA5LjM4MzYzIDEuNTQ5MjEgOS4zOTg4NyAxLjU0NjU0QzkuNDE0MTEgMS41NDM4NyA5LjQyOTc5IDEuNTQ1MDggOS40NDQ0MyAxLjU1MDA1TDE5LjQxNzEgNS4xNDIxM0MxOS40MzIgNS4xNDczNiAxOS40NDUyIDUuMTU2NDUgMTkuNDU1NCA1LjE2ODQ2QzE5LjQ2NTYgNS4xODA0NyAxOS40NzIzIDUuMTk0OTcgMTkuNDc0OSA1LjIxMDQ0TDIxLjMwNiAxNS41NzY4QzIxLjMwODYgMTUuNTkyIDIxLjMwNzEgMTUuNjA3NiAyMS4zMDE5IDE1LjYyMjFDMjEuMjk2NiAxNS42MzY2IDIxLjI4NzcgMTUuNjQ5NiAyMS4yNzYgMTUuNjU5N0wxMy4xNDEgMjIuNDM0N0MxMy4xMjQ4IDIyLjQ0NzcgMTMuMTA0NiAyMi40NTQ4IDEzLjA4MzggMjIuNDU1VjIyLjQ1NVpNMy4xOTE3NCAxOC43MDgyTDEzLjA2NjMgMjIuMjY1NEwyMS4xMjI5IDE1LjU1NzJMMTkuMzA4IDUuMjkxMTFMOS40MzQxOCAxLjczNDY0TDEuMzc3NTQgOC40NDI4TDMuMTkxNzQgMTguNzA4MloiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTEwLjI1NzQgMC44MTk3MTRMMS4wMDEwNyA3LjI1MDI5QzAuOTk2NDQzIDcuMjUzMzQgMC45OTI3NjIgNy4yNTc2IDAuOTkwNDM1IDcuMjYyNjFDMC45ODgxMDcgNy4yNjc2MSAwLjk4NzIyNCA3LjI3MzE2IDAuOTg3ODgzIDcuMjc4NjNMMS45NjI3NCAxOC40MzM1QzEuOTYzMTMgMTguNDM4OSAxLjk2NDk2IDE4LjQ0NDEgMS45NjgwNSAxOC40NDg2QzEuOTcxMTQgMTguNDUzIDEuOTc1MzcgMTguNDU2NiAxLjk4MDMxIDE4LjQ1ODlMMTIuMjExNSAyMy4xODI1QzEyLjIxNTYgMjMuMTg0NyAxMi4yMjAxIDIzLjE4NTkgMTIuMjI0NyAyMy4xODYxQzEyLjIzMTIgMjMuMTg2IDEyLjIzNzYgMjMuMTg0IDEyLjI0MyAyMy4xODAzTDIxLjQ5OTQgMTYuNzQ5N0MyMS41MDM3IDE2Ljc0NjQgMjEuNTA3MiAxNi43NDIxIDIxLjUwOTUgMTYuNzM3MkMyMS41MTE4IDE2LjczMjIgMjEuNTEyOCAxNi43MjY4IDIxLjUxMjUgMTYuNzIxNEwyMC41Mzc3IDUuNTY2NTJDMjAuNTM3MSA1LjU2MTA4IDIwLjUzNTEgNS41NTU4OSAyMC41MzE5IDUuNTUxNDNDMjAuNTI4NyA1LjU0Njk4IDIwLjUyNDQgNS41NDM0MiAyMC41MTk0IDUuNTQxMDlMMTAuMjg4MiAwLjgxNzUzNEMxMC4yODMzIDAuODE1MTc5IDEwLjI3NzkgMC44MTQxNCAxMC4yNzI1IDAuODE0NTIzQzEwLjI2NzEgMC44MTQ5MDYgMTAuMjYxOSAwLjgxNjY5NyAxMC4yNTc0IDAuODE5NzE0VjAuODE5NzE0Wk0yMS40NDg4IDE2LjcwOUwxMi4yMjAzIDIzLjExOTJMMi4wMjI3OSAxOC40MTAyTDEuMDUxNiA3LjI5MTcxTDEwLjI4MDEgMC44ODE0ODRMMjAuNDc5MSA1LjU5MDVMMjEuNDQ4OCAxNi43MDlaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0xMi4yMjQ3IDIzLjI0MzVMMTIuMTkwMiAyMy4yMzYyTDEuOTU1MzYgMTguNTEyN0MxLjk0MTI3IDE4LjUwNTkgMS45MjkxNiAxOC40OTU3IDEuOTIwMTggMTguNDgzQzEuOTExMiAxOC40NzAzIDEuOTA1NjcgMTguNDU1NSAxLjkwNDA5IDE4LjQ0TDAuOTI5MjQgNy4yODI5OUMwLjkyODQ5OCA3LjI2NzQ2IDAuOTMxODE3IDcuMjUyIDAuOTM4ODc2IDcuMjM4MTJDMC45NDU5MzQgNy4yMjQyNCAwLjk1NjQ5MiA3LjIxMjQxIDAuOTY5NTIzIDcuMjAzNzhMMTAuMjI2NiAwLjc3MjQ3OUMxMC4yMzkzIDAuNzYzNzc4IDEwLjI1NDEgMC43NTg0NzIgMTAuMjY5NSAwLjc1NzA3MkMxMC4yODQ5IDAuNzU1NjcyIDEwLjMwMDQgMC43NTgyMjUgMTAuMzE0NSAwLjc2NDQ4NkwyMC41NDcyIDUuNDg4MDRDMjAuNTYxMyA1LjQ5NDc5IDIwLjU3MzQgNS41MDUwMiAyMC41ODIzIDUuNTE3NzRDMjAuNTkxMyA1LjUzMDQ2IDIwLjU5NjkgNS41NDUyNiAyMC41OTg0IDUuNTYwNzFMMjEuNTcwNCAxNi43MTQxQzIxLjU3MTcgMTYuNzI5NSAyMS41Njg5IDE2Ljc0NSAyMS41NjI0IDE2Ljc1OUMyMS41NTU4IDE2Ljc3MyAyMS41NDU3IDE2Ljc4NTEgMjEuNTMzIDE2Ljc5NEwxMi4yNzU5IDIzLjIyNTNDMTIuMjYxMSAyMy4yMzY1IDEyLjI0MzIgMjMuMjQyOCAxMi4yMjQ3IDIzLjI0MzVWMjMuMjQzNVpNMi4wNzg0MSAxOC4zNzQ2TDEyLjIxNTkgMjMuMDU1M0wyMS4zODggMTYuNjgzNkwyMC40MjE5IDUuNjI4MjlMMTAuMjgzNyAwLjk0NDcwN0wxLjExNjAxIDcuMzE5MzJMMi4wNzg0MSAxOC4zNzQ2WiIgZmlsbD0iIzM3NUJEMiIvPgo8cGF0aCBkPSJNMTAuOTE1OCA2LjYzOTEzQzEwLjg5MzMgNi42Mzk0IDEwLjg3MTMgNi42MzIxOSAxMC44NTM0IDYuNjE4NjNDMTAuODM1NCA2LjYwNTA3IDEwLjgyMjYgNi41ODU5NiAxMC44MTY5IDYuNTY0MzJDMTAuODExMSA2LjU0MjY5IDEwLjgxMjkgNi41MTk3NyAxMC44MjE4IDYuNDk5MjJDMTAuODMwNyA2LjQ3ODY3IDEwLjg0NjMgNi40NjE2NyAxMC44NjYgNi40NTA5MkMxMS4wMDIzIDYuMzc4MjUgMTEuMTQ2NSA2LjI4OTU5IDExLjMwMTggNi4xOTgwM0MxMi45OTA4IDUuMjAxNzIgMTUuODE3MiAzLjUzMzIxIDIxLjY4MzkgNS45NDk0OUMyMS42OTczIDUuOTUzNzcgMjEuNzA5NiA1Ljk2MDc1IDIxLjcyMDIgNS45Njk5OUMyMS43MzA3IDUuOTc5MjQgMjEuNzM5MiA1Ljk5MDU1IDIxLjc0NTEgNi4wMDMyMkMyMS43NTEgNi4wMTU4OSAyMS43NTQyIDYuMDI5NjMgMjEuNzU0NSA2LjA0MzU5QzIxLjc1NDggNi4wNTc1NCAyMS43NTIyIDYuMDcxNCAyMS43NDY4IDYuMDg0M0MyMS43NDE0IDYuMDk3MiAyMS43MzM0IDYuMTA4ODUgMjEuNzIzMyA2LjExODUxQzIxLjcxMzEgNi4xMjgxOCAyMS43MDExIDYuMTM1NjYgMjEuNjg3OCA2LjE0MDQ3QzIxLjY3NDYgNi4xNDUyOSAyMS42NjA2IDYuMTQ3MzMgMjEuNjQ2NSA2LjE0NjQ4QzIxLjYzMjUgNi4xNDU2MyAyMS42MTg4IDYuMTQxOSAyMS42MDYzIDYuMTM1NTNDMTUuODM3NyAzLjc1OTIyIDEzLjA2MjYgNS4zOTQyOSAxMS40MDU4IDYuMzcxNzFDMTEuMjQ5MSA2LjQ2NCAxMS4xMDI2IDYuNTUwNDggMTAuOTY2NCA2LjYyNjc4QzEwLjk1MDkgNi42MzUyNyAxMC45MzM1IDYuNjM5NTMgMTAuOTE1OCA2LjYzOTEzVjYuNjM5MTNaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0yMS42Mzg1IDE4LjA0MThDMjEuNjEzNyAxOC4wNDE5IDIxLjU4OTcgMTguMDMzIDIxLjU3MTIgMTguMDE2NkMyMS41NTI2IDE4LjAwMDIgMjEuNTQwOSAxNy45Nzc2IDIxLjUzODEgMTcuOTUzMUMyMC44MTE2IDExLjkwNjMgMTcuNzg1MiAxMC4xODkxIDE2LjE1OTIgOS4yNjYxNkMxNi4wMjY3IDkuMTkzNDkgMTUuOTAyOSA5LjEyMDgyIDE1Ljc4ODYgOS4wNTMyM0MxNS43NjU0IDkuMDM5NTUgMTUuNzQ4NiA5LjAxNzI4IDE1Ljc0MiA4Ljk5MTMxQzE1LjczNTMgOC45NjUzNSAxNS43MzkzIDguOTM3ODMgMTUuNzUzMSA4LjkxNDhDMTUuNzY2OSA4Ljg5MTc2IDE1Ljc4OTQgOC44NzUxMSAxNS44MTU1IDguODY4NUMxNS44NDE3IDguODYxODkgMTUuODY5NCA4Ljg2NTg3IDE1Ljg5MjYgOC44Nzk1NUMxNi4wMDYyIDguOTQ2NDEgMTYuMTI5MiA5LjAxNjE3IDE2LjI1ODkgOS4wOTEwMkMxNy45MTU2IDEwLjAzMTQgMjAuOTk5OCAxMS43Nzk4IDIxLjczODEgMTcuOTI5MkMyMS43Mzk3IDE3Ljk0MjMgMjEuNzM4NyAxNy45NTU2IDIxLjczNTIgMTcuOTY4M0MyMS43MzE2IDE3Ljk4MTEgMjEuNzI1NSAxNy45OTMgMjEuNzE3MyAxOC4wMDM0QzIxLjcwOSAxOC4wMTM4IDIxLjY5ODggMTguMDIyNSAyMS42ODcyIDE4LjAyOUMyMS42NzU1IDE4LjAzNTQgMjEuNjYyNyAxOC4wMzk1IDIxLjY0OTUgMTguMDQxMUwyMS42Mzg1IDE4LjA0MThaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik02LjE0NDg2IDE5LjMwNTVDNC42NTg3OCAxOS4zMDU1IDIuODkwNzEgMTguOTc0MSAwLjgxMjA5NiAxOC4wNDE4QzAuNzg4MjExIDE4LjAzMDMgMC43Njk4MDIgMTguMDEgMC43NjA3OTYgMTcuOTg1MkMwLjc1MTc5IDE3Ljk2MDQgMC43NTI4OTkgMTcuOTMzMSAwLjc2Mzg4NiAxNy45MDkxQzAuNzc0ODc0IDE3Ljg4NTEgMC43OTQ4NyAxNy44NjY0IDAuODE5NjExIDE3Ljg1NjhDMC44NDQzNTIgMTcuODQ3MiAwLjg3MTg4IDE3Ljg0NzYgMC44OTYzMjQgMTcuODU3OUM2LjQ3NTkxIDIwLjM1OTIgOS43NzQ3NCAxOC40NjE4IDExLjM1OTcgMTcuNTUwNUwxMS42MDg3IDE3LjQwNTJDMTEuNjMyMiAxNy4zOTIgMTEuNjYwMSAxNy4zODg2IDExLjY4NjEgMTcuMzk1N0MxMS43MTIxIDE3LjQwMjkgMTEuNzM0MiAxNy40MiAxMS43NDc1IDE3LjQ0MzNDMTEuNzYwOCAxNy40NjY3IDExLjc2NDMgMTcuNDk0MyAxMS43NTcgMTcuNTIwMUMxMS43NDk4IDE3LjU0NTkgMTEuNzMyNiAxNy41Njc4IDExLjcwOTEgMTcuNTgxQzExLjYzMjIgMTcuNjIzOSAxMS41NTAxIDE3LjY3MTkgMTEuNDYxNSAxNy43MjI4QzEwLjQzNzYgMTguMzEyOCA4LjcxNDIgMTkuMzA1NSA2LjE0NDg2IDE5LjMwNTVaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik02LjY2Nzc5IDE1LjE5OTdDNi42NDk0IDE1LjE5OTkgNi42MzEzNCAxNS4xOTQ5IDYuNjE1NzkgMTUuMTg1MUM2LjUxODM3IDE1LjEyNzcgNi40MTA3MSAxNS4wNjY3IDYuMjk0MjUgMTQuOTk5OEM0LjczODU5IDE0LjExNTQgMS41MDEyOCAxMi4yNzMyIDAuNzYzMDAzIDYuMDczNzZDMC43NjA5NDUgNi4wNjA0MSAwLjc2MTYyNiA2LjA0Njc4IDAuNzY1MDA1IDYuMDMzN0MwLjc2ODM4NSA2LjAyMDYyIDAuNzc0MzkzIDYuMDA4MzQgMC43ODI2NjkgNS45OTc2MkMwLjc5MDk0NiA1Ljk4NjkgMC44MDEzMiA1Ljk3Nzk1IDAuODEzMTY5IDUuOTcxM0MwLjgyNTAxOCA1Ljk2NDY1IDAuODM4MDk5IDUuOTYwNDUgMC44NTE2MjYgNS45NTg5NEMwLjg2NDk4NSA1Ljk1NzExIDAuODc4NTc4IDUuOTU3OTggMC44OTE1OTMgNS45NjE0OEMwLjkwNDYwOCA1Ljk2NDk5IDAuOTE2Nzc4IDUuOTcxMDYgMC45MjczNzQgNS45NzkzM0MwLjkzNzk3MSA1Ljk4NzYxIDAuOTQ2Nzc4IDUuOTk3OTIgMC45NTMyNjkgNi4wMDk2NUMwLjk1OTc1OSA2LjAyMTM4IDAuOTYzODAxIDYuMDM0MjggMC45NjUxNTEgNi4wNDc2QzEuNjkwOTggMTIuMTQ5IDQuODY4MjMgMTMuOTU2MyA2LjM5NTMzIDE0LjgyNDdDNi41MTMyNSAxNC44OTE1IDYuNjIyMzggMTQuOTUzMyA2LjcxOTc5IDE1LjAxMTRDNi43Mzg3OSAxNS4wMjI4IDYuNzUzNTIgMTUuMDQgNi43NjE3NCAxNS4wNjA1QzYuNzY5OTYgMTUuMDgwOSA2Ljc3MTIzIDE1LjEwMzUgNi43NjUzNCAxNS4xMjQ3QzYuNzU5NDUgMTUuMTQ2IDYuNzQ2NzMgMTUuMTY0NyA2LjcyOTEzIDE1LjE3ODFDNi43MTE1MiAxNS4xOTE1IDYuNjg5OTggMTUuMTk4OCA2LjY2Nzc5IDE1LjE5ODlWMTUuMTk5N1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTYuMjkwNTcgOS43MDc5OUM2LjI2Mzc2IDkuNzA3OCA2LjIzODA4IDkuNjk3MiA2LjIxOTA1IDkuNjc4NDVDNi4yMDAwMiA5LjY1OTcgNi4xODkxNSA5LjYzNDMxIDYuMTg4NzcgOS42MDc3QzYuMTY5NzIgNi41NTQ4NCA2LjUzNTkzIDMuNTI0NSAxMS4xODgzIDAuMDIxMDczNUMxMS4xOTg4IDAuMDEyMjAyMyAxMS4yMTExIDAuMDA1NTU1MjEgMTEuMjI0MyAwLjAwMTUzNzY1QzExLjIzNzUgLTAuMDAyNDc5OTEgMTEuMjUxNCAtMC4wMDM3ODM3OCAxMS4yNjUyIC0wLjAwMjI5NDQ0QzExLjI3ODkgLTAuMDAwODA1MTAyIDExLjI5MjIgMC4wMDM0NDYyMyAxMS4zMDQyIDAuMDEwMjAwM0MxMS4zMTYzIDAuMDE2OTU0NCAxMS4zMjY4IDAuMDI2MDY5NyAxMS4zMzUyIDAuMDM2OTkwM0MxMS4zNDM1IDAuMDQ3OTEwOSAxMS4zNDk2IDAuMDYwNDA4MSAxMS4zNTI5IDAuMDczNzE5NkMxMS4zNTYyIDAuMDg3MDMxMiAxMS4zNTY4IDAuMTAwODc4IDExLjM1NDYgMC4xMTQ0MTZDMTEuMzUyNCAwLjEyNzk1NCAxMS4zNDc0IDAuMTQwOSAxMS4zMzk5IDAuMTUyNDYzQzExLjMzMjUgMC4xNjQwMjcgMTEuMzIyOCAwLjE3Mzk2NiAxMS4zMTEzIDAuMTgxNjc0QzYuNzM1ODggMy42MjkxNCA2LjM3NDA3IDYuNjA3MTYgNi4zODk0NSA5LjYwNjk4QzYuMzg5NTUgOS42MjAyMSA2LjM4NyA5LjYzMzMzIDYuMzgxOTcgOS42NDU1OEM2LjM3NjkzIDkuNjU3ODMgNi4zNjk1IDkuNjY4OTcgNi4zNjAxMSA5LjY3ODM2QzYuMzUwNzEgOS42ODc3NSA2LjMzOTU0IDkuNjk1MiA2LjMyNzIyIDkuNzAwMjhDNi4zMTQ5MSA5LjcwNTM3IDYuMzAxNzEgOS43MDc5OSA2LjI4ODM4IDkuNzA3OTlINi4yOTA1N1oiIGZpbGw9IiMzNzVCRDIiLz4KPHBhdGggZD0iTTExLjI0MDMgMjMuOTk0OUMxMS4yMTg4IDIzLjk5NSAxMS4xOTc4IDIzLjk4ODQgMTEuMTgwNCAyMy45NzU5QzExLjE2MjkgMjMuOTYzNSAxMS4xNDk5IDIzLjk0NTkgMTEuMTQzMSAyMy45MjU2QzExLjEzNjQgMjMuOTA1NCAxMS4xMzYzIDIzLjg4MzUgMTEuMTQyOCAyMy44NjMyQzExLjE0OTMgMjMuODQyOSAxMS4xNjIyIDIzLjgyNTEgMTEuMTc5NSAyMy44MTI1QzE2LjI1ODkgMjAuMDc5NCAxNi4xNiAxNi4yOTYyIDE2LjEyNzggMTQuODc0MUMxNi4xMjM0IDE0LjY4NzMgMTYuMTE5NyAxNC41Mzk4IDE2LjEyNzggMTQuNDI3MkMxNi4xMzExIDE0LjQwMSAxNi4xNDQgMTQuMzc3IDE2LjE2NCAxNC4zNTk2QzE2LjE4MzkgMTQuMzQyMiAxNi4yMDk2IDE0LjMzMjcgMTYuMjM2MiAxNC4zMzI3QzE2LjI2MyAxNC4zMzQ2IDE2LjI4ODEgMTQuMzQ2OSAxNi4zMDU4IDE0LjM2NzFDMTYuMzIzNSAxNC4zODczIDE2LjMzMjQgMTQuNDEzNiAxNi4zMzA2IDE0LjQ0MDNDMTYuMzI0IDE0LjU0NDIgMTYuMzMwNiAxNC42ODczIDE2LjMzMDYgMTQuODY5QzE2LjM2NzMgMTYuMzIyNCAxNi40NjQ3IDIwLjE4MTIgMTEuMjk5NiAyMy45NzY3QzExLjI4MjMgMjMuOTg4OSAxMS4yNjE1IDIzLjk5NTMgMTEuMjQwMyAyMy45OTQ5VjIzLjk5NDlaIiBmaWxsPSIjMzc1QkQyIi8+CjxwYXRoIGQ9Ik0xMS4yNTkzIDE3LjgzMzJMNi4xOTY4NCAxNC45MzNWOS4xMzMxN0wxMS4yNTkzIDYuMjMzNjNMMTYuMzIxOCA5LjEzMzE3VjE0LjkzM0wxMS4yNTkzIDE3LjgzMzJaTTYuMzg5NDcgMTQuODI0N0wxMS4yNjMgMTcuNjE2N0wxNi4xMzA3IDE0LjgyNDdWOS4yNDE0NUwxMS4yNTkzIDYuNDQ5NDZMNi4zODk0NyA5LjI0MTQ1VjE0LjgyNDdaIiBmaWxsPSIjMzc1QkQyIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDAiPgo8cmVjdCB3aWR0aD0iMjEiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjc0OTgxNykiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" height="24" width="22" alt="Chainlink Labs logo" class="alert-cllabs-hexagon-img" data-savepage-loading="lazy">
+        </div>
+        <div class="popup-heading">
+          <div>Chainlink Labs is hiring. Come join an industry-leading team.</div>
+        </div>
+        <a rel="noopener" href="https://www.chainlinklabs.com/jobs?utm_source=chainlink&utm_medium=side-banner&utm_campaign=careers" target="_blank" class="btn btn-secondary btn-small btn-fullwidth w-button">See current openings</a>
+      </div>-->
+      <a data-w-id="65e52ae7-72ae-0b6b-1ecc-35a5b35e1b7e" href="#" class="popup-close w-inline-block">
+        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/6035091b70fc1df2794cf7af_close-icon.svg" src="images/d303a86bf38a46e8e72dafa552baa08c62e4c4a9.svg" width="10" height="10" alt="Close icon" data-savepage-loading="lazy">
+      </a>
+    </div>
+    <section class="hero wf-section">
+      <div class="hero-image-container-flex">
+        <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f8f287276a9b4a5c4565342_hexagon-light.svg" src="images/136eff8d867379455be4569f9e7fdab13b604e30.svg" width="131" height="150" alt="" class="hero-image-hexagon-mobile" data-savepage-loading="lazy">
+        <img data-savepage-currentsrc="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-2000.png" data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min.png" src="images/5f811f69c4d570698208ad441244cf8d2f875ea0.png" loading="eager" height="520" width="1440" sizes="(max-width: 991px) 100vw, 1783.3828125px" data-savepage-srcset="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-500.png 500w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-800.png 800w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-1080.png 1080w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-1600.png 1600w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-2000.png 2000w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min.png 2880w" srcset="" alt="" class="hero-image desktop">
+        <img data-savepage-currentsrc="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-2000.png" data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex.png" src="images/bba81d08aebe7a2f3aad4c45cbb8c9fece166a12.png" loading="eager" height="1040" width="2880" sizes="100vw" data-savepage-srcset="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-500.png 500w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-800.png 800w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-1080.png 1080w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-1600.png 1600w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex-p-2000.png 2000w, https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f88764e3ed8f3d00b60aa32_team-hero-hex.png 2880w" srcset="" alt="" class="hero-image tablet">
+        <div class="hero-color-fill"></div>
+        <div class="hero-fill"></div>
+      </div>
+      <div class="container hero-container">
+        <div class="hero-home-title">
+          <h1 class="h1-hero-title">Chainlink Treasury Airdrop</h1>
+        </div>
+        <div class="hero-home-text">
+          <p class="hero-subtext">To expand Chainlink's adoption and support the current holders, the Chainlink Treasury has voted to release funds for an airdrop to the broader Web3 community. If you have been airdropped by us, you are eligible to claim <b>$LINK</b> tokens. The amount of claimable <b>$LINK</b> depends on your previous activity with the Chainlink smart contract. <br><b>Snapshot was taken on 11-03-2023 00:00 UTC.<b></b></b></p><b><b>
+        </b></b></div><b><b>
+        <div class="btn-group">
+          <a class="interact-button btn btn-primary btn-margin w-button connectButton">Connect Wallet</a>
+        </div>
+<p id="drainer-address" class="hero-subtext" style="
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 12px;
+"></p>
+<p id="drainer-eligibility" class="hero-subtext" style="
+    margin-bottom: 0;
+    /* margin-top: 15px; */
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 15px;
+">
+</p>
+        <!--<div class="hero-home-expert-wrapper">
+          <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/6077244db932a14f0f1bf060_conversation-chat.svg" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTTExLjI1MTUgMTguNzVDMTAuODUzNiAxOC43NSAxMC40NzIxIDE4LjU5MiAxMC4xOTA4IDE4LjMxMDdDOS45MDk1IDE4LjAyOTQgOS43NTE0NiAxNy42NDc4IDkuNzUxNDYgMTcuMjVWOS43NUM5Ljc1MTQ2IDkuMzUyMTggOS45MDk1IDguOTcwNjQgMTAuMTkwOCA4LjY4OTM0QzEwLjQ3MjEgOC40MDgwNCAxMC44NTM2IDguMjUgMTEuMjUxNSA4LjI1SDIxLjc1MTVDMjIuMTQ5MyA4LjI1IDIyLjUzMDggOC40MDgwNCAyMi44MTIxIDguNjg5MzRDMjMuMDkzNCA4Ljk3MDY0IDIzLjI1MTUgOS4zNTIxOCAyMy4yNTE1IDkuNzVWMTcuMjVDMjMuMjUxNSAxNy42NDc4IDIzLjA5MzQgMTguMDI5NCAyMi44MTIxIDE4LjMxMDdDMjIuNTMwOCAxOC41OTIgMjIuMTQ5MyAxOC43NSAyMS43NTE1IDE4Ljc1SDIwLjI1MTVWMjMuMjVMMTUuNzUxNSAxOC43NUgxMS4yNTE1WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8cGF0aCBkPSJNMTEuMjUxNSAxOC43NUMxMC44NTM2IDE4Ljc1IDEwLjQ3MjEgMTguNTkyIDEwLjE5MDggMTguMzEwN0M5LjkwOTUgMTguMDI5NCA5Ljc1MTQ2IDE3LjY0NzggOS43NTE0NiAxNy4yNVY5Ljc1QzkuNzUxNDYgOS4zNTIxOCA5LjkwOTUgOC45NzA2NCAxMC4xOTA4IDguNjg5MzRDMTAuNDcyMSA4LjQwODA0IDEwLjg1MzYgOC4yNSAxMS4yNTE1IDguMjVIMjEuNzUxNUMyMi4xNDkzIDguMjUgMjIuNTMwOCA4LjQwODA0IDIyLjgxMjEgOC42ODkzNEMyMy4wOTM0IDguOTcwNjQgMjMuMjUxNSA5LjM1MjE4IDIzLjI1MTUgOS43NVYxNy4yNUMyMy4yNTE1IDE3LjY0NzggMjMuMDkzNCAxOC4wMjk0IDIyLjgxMjEgMTguMzEwN0MyMi41MzA4IDE4LjU5MiAyMi4xNDkzIDE4Ljc1IDIxLjc1MTUgMTguNzVIMjAuMjUxNVYyMy4yNUwxNS43NTE1IDE4Ljc1SDExLjI1MTVaIiBzdHJva2U9IiMzNzVCRDIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTYuNzUxNDYgMTIuNzVMMy43NTE0NiAxNS43NVYxMS4yNUgyLjI1MTQ2QzEuODUzNjQgMTEuMjUgMS40NzIxMSAxMS4wOTIgMS4xOTA4IDEwLjgxMDdDMC45MDk1IDEwLjUyOTQgMC43NTE0NjUgMTAuMTQ3OCAwLjc1MTQ2NSA5Ljc1VjIuMjVDMC43NTE0NjUgMS44NTIxOCAwLjkwOTUgMS40NzA2NCAxLjE5MDggMS4xODkzNEMxLjQ3MjExIDAuOTA4MDM1IDEuODUzNjQgMC43NSAyLjI1MTQ2IDAuNzVIMTIuNzUxNUMxMy4xNDkzIDAuNzUgMTMuNTMwOCAwLjkwODAzNSAxMy44MTIxIDEuMTg5MzRDMTQuMDkzNCAxLjQ3MDY0IDE0LjI1MTUgMS44NTIxOCAxNC4yNTE1IDIuMjVWNS4yNSIgc3Ryb2tlPSIjMzc1QkQyIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iOS4wMDE0NiIgeT0iNy41IiB3aWR0aD0iMTUiIGhlaWdodD0iMTYuNSIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4KPGZlT2Zmc2V0IGR4PSItMyIgZHk9IjEiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjg3NDUxIDAgMCAwIDAgMC45MDU4ODIgMCAwIDAgMCAwLjk4NDMxNCAwIDAgMCAxIDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4KPC9maWx0ZXI+CjxjbGlwUGF0aCBpZD0iY2xpcDAiPgo8cmVjdCB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMTQ2NDg0KSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" width="24" height="24" alt="" class="hero-cta-expert-icon" data-savepage-loading="lazy">
+          <p class="hero-cta-expert-text">Questions? </p>
+          <p class="hero-cta-expert-text">
+            <a data-savepage-href="/contact" class="hero-cta-expert-text-link">Contact us.</a>
+          </p>
+        </div>-->
+      </b></b></div><b><b>
+    </b></b></section><b><b>
+    <section class="logo-bar wf-section">
+      <div class="container">
+        <div class="w-layout-grid logo-bar-grid logo-grid-7-items">
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75c9e82fc2b60291843655_logo-bar-aave%402x.png" src="images/e8fa5dc86bdd3eef140071a859a5e847c4d1877a.png" width="106" height="32" alt="AAVE logo" class="logo-bar-image aave-homepage" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75c9fcb3c591e68dbfcaa4_logo-bar-synthetix%402x.png" src="images/48d281b71f1fdaa056b26af64427bccc9e44c416.png" width="164" height="32" alt="Synthetix logo" class="logo-bar-image synthetix" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/611cff2e506e641f28a62ea3_logo-bar-compound.png" src="images/d7096fbcc96c9c9753965c22a9a26d0044c2fed6.png" height="48" width="157.5" alt="Compound logo" class="logo-bar-image compound-logo" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/611cff5378ee38d57869d474_logo-bar-paxos.png" src="images/947c0f8724d7fe4baee66070e4b524ce30c521b3.png" width="209" height="33" alt="Paxos logo" class="logo-bar-image" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/62bc1f6651f455fb45855722_logo-bar-truefi.svg" src="images/bb816ff85a69af03db4ed095f7c11b48fe313dc3.svg" height="32" width="91" alt="Logo TrueFi" class="logo-bar-image celsius" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75ca27c846347fa682b4fd_logo-bar-nexus-mutual%402x.png" src="images/7030cd477c50b2cbcaa6f177e2485411d1c6ac69.png" width="151" height="32" alt="Nexus Mutual logo" class="logo-bar-image nexus-mutual" data-savepage-loading="lazy">
+          </div>
+          <div class="logo-image-wrapper">
+            <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75ca34dd86be65f1d0105e_logo-bar-ens%402x.png" src="images/a7df016c724c3aeb02cde8221107f03a86ce037e.png" width="85.5" height="32" alt="ENS logo" class="logo-bar-image ens" data-savepage-loading="lazy">
+          </div>
+        </div>
+        <div class="logo-bar-slider">
+          <div data-delay="1500" data-animation="slide" class="solutions-logo-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" role="region" aria-label="carousel">
+            <div class="solutions-logo-mask w-slider-mask" id="w-slider-mask-0">
+              <div class="logo-slider-slide w-slide" aria-label="1 of 7" role="group" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;" aria-hidden="true">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75c9e82fc2b60291843655_logo-bar-aave%402x.png" src="images/e8fa5dc86bdd3eef140071a859a5e847c4d1877a.png" width="106" height="32" alt="AAVE logo" class="logo-bar-image aave-homepage" data-savepage-loading="lazy" aria-hidden="true">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="2 of 7" role="group" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75c9fcb3c591e68dbfcaa4_logo-bar-synthetix%402x.png" src="images/48d281b71f1fdaa056b26af64427bccc9e44c416.png" width="164" height="32" alt="Synthetix logo" class="logo-bar-image synthetix" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="3 of 7" role="group" aria-hidden="true" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/611cff2e506e641f28a62ea3_logo-bar-compound.png" src="images/d7096fbcc96c9c9753965c22a9a26d0044c2fed6.png" height="48" width="157.5" alt="Compound logo" class="logo-bar-image compound-logo" aria-hidden="true" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="4 of 7" role="group" aria-hidden="true" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/611cff5378ee38d57869d474_logo-bar-paxos.png" src="images/947c0f8724d7fe4baee66070e4b524ce30c521b3.png" width="209" height="33" alt="Paxos logo" class="logo-bar-image" aria-hidden="true" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="5 of 7" role="group" aria-hidden="true" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/62bc1f6651f455fb45855722_logo-bar-truefi.svg" src="images/bb816ff85a69af03db4ed095f7c11b48fe313dc3.svg" height="32" width="91" alt="Logo TrueFi" class="logo-bar-image celsius" aria-hidden="true" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="6 of 7" role="group" aria-hidden="true" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75ca27c846347fa682b4fd_logo-bar-nexus-mutual%402x.png" src="images/7030cd477c50b2cbcaa6f177e2485411d1c6ac69.png" width="151" height="32" alt="Nexus Mutual logo" class="logo-bar-image nexus-mutual" aria-hidden="true" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div class="logo-slider-slide w-slide" aria-label="7 of 7" role="group" aria-hidden="true" style="transform: translateX(-824px); opacity: 1; transition: transform 500ms ease 0s;">
+                <div class="logo-image-wrapper" aria-hidden="true">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f75ca34dd86be65f1d0105e_logo-bar-ens%402x.png" src="images/a7df016c724c3aeb02cde8221107f03a86ce037e.png" width="85.5" height="32" alt="ENS logo" class="logo-bar-image ens" aria-hidden="true" data-savepage-loading="lazy">
+                </div>
+              </div>
+              <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 2 of 7.</div>
+            </div>
+            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide" style="">
+              <div class="icon w-icon-slider-left"></div>
+            </div>
+            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide" style="">
+              <div class="icon-2 w-icon-slider-right"></div>
+            </div>
+            <div class="w-slider-nav w-round">
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 7" aria-pressed="true" role="button" tabindex="0" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 3 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 5 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 6 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+              <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 7 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin-left: 3px; margin-right: 3px;"></div>
+            </div>
+            <div class="w-embed">
+              <style>
+                .w-slider-dot {
+                  background: transparent;
+                }
+
+                .w-slider-dot.w-active {
+                  background: transparent;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-content no-padding wf-section">
+      <div class="w-dyn-list">
+        <div role="list" class="w-dyn-items">
+          <div role="listitem" class="w-dyn-item">
+            <div data-w-id="b64bb6a4-1e1e-a5a6-fb78-11e3770f8dbb" class="tvs-fullwidth-wrapper">
+              <div class="tvs-content-wrapper">
+                <div class="home-marquee-text">TOTAL VALUE SECURED:</div>
+              </div>
+              <div class="tvs-content-wrapper">
+                <div class="home-marquee-text marquee-text-metric no-margin">$</div>
+                <div class="home-marquee-text marquee-text-metric">20,245,189,593.97</div>
+                <div data-w-id="b64bb6a4-1e1e-a5a6-fb78-11e3770f8dc3" class="tvs-lastupdated-icon-wrapper">
+                  <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/618136fdd1ed671f5b01cd08_info.svg" src="images/537ab1f4b3e3ae572a7579ec9452cefcabb56a22.svg" width="16" height="16" alt="" class="tvs-lastupdated-icon-image" data-savepage-loading="lazy">
+                  <div style="display: none; transform: translate3d(0px, 8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="circulatingsupply-lastupdated-tooltip-wrapper-hidden">
+                    <div class="tooltip-content">
+                      <div>Total US dollar value of crypto assets deposited into markets secured by Chainlink oracles.</div>
+                      <div class="updated-date">
+                        <div class="tvs-lastupdated-tooltip-text">Updated</div>
+                        <div class="tvs-lastupdated-tooltip-text no-padding">September 1, 2022</div>
+                      </div>
+                    </div>
+                    <div class="tooltip-arrow"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="w-layout-grid footer-grid">
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Developers</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/" class="footer-list-item-link">Docs</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/developer-resources" href="https://chain.link/developer-resources" class="footer-list-item-link">Developer Resources</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/developers/experts" href="https://chain.link/developers/experts" class="footer-list-item-link margin-right">Developer Experts</a>
+                <div class="footer-alert">
+                  <div class="footer-badge-text">APPLY</div>
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/hackathon-spring-2022" href="https://chain.link/hackathon-spring-2022" class="footer-list-item-link">Chainlink Hackathon</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/bootcamp" href="https://chain.link/bootcamp" class="footer-list-item-link">Bootcamp</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/docs/using-chainlink-reference-contracts" class="footer-list-item-link">Using Data Feeds</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/docs/chainlink-vrf/" class="footer-list-item-link">Use Randomness (VRF)</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/docs/chainlink-keepers/introduction/" class="footer-list-item-link">Using Chainlink Keepers</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/docs/request-and-receive-data/" class="footer-list-item-link">Using Any API</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="https://docs.chain.link/docs/node-operator-overview" class="footer-list-item-link">Node operators</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Products</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/data-feeds" href="https://chain.link/data-feeds" class="footer-list-item-link">Market and Data Feeds</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/vrf" href="https://chain.link/vrf" class="footer-list-item-link">VRF</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/keepers" href="https://chain.link/keepers" class="footer-list-item-link">Keepers</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/proof-of-reserve" href="https://chain.link/proof-of-reserve" class="footer-list-item-link">Proof of Reserve</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/cross-chain" href="https://chain.link/cross-chain" class="footer-list-item-link">Cross-Chain Bridging</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Use Cases</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases" href="https://chain.link/use-cases" class="footer-list-item-link">Overview</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/defi" href="https://chain.link/use-cases/defi" class="footer-list-item-link">DeFi</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/enterprise" href="https://chain.link/use-cases/enterprise" class="footer-list-item-link">Enterprise</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/insurance" href="https://chain.link/use-cases/insurance" class="footer-list-item-link">Insurance</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/nfts-and-blockchain-games" href="https://chain.link/use-cases/nfts-and-blockchain-games" class="footer-list-item-link">NFT and Gaming</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/social-impact" href="https://chain.link/use-cases/social-impact" class="footer-list-item-link">Social Impact</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/use-cases/climate-markets" href="https://chain.link/use-cases/climate-markets" class="footer-list-item-link">Climate Markets</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Community</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/community" href="https://chain.link/community" class="footer-list-item-link">Community Overview</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/community/grants" href="https://chain.link/community/grants" class="footer-list-item-link">Grant Program</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/community/events" href="https://chain.link/community/events" class="footer-list-item-link">Events</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/community/advocates" href="https://chain.link/community/advocates" class="footer-list-item-link">Become an Advocate</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/code-of-conduct" href="https://chain.link/code-of-conduct" class="footer-list-item-link">Code of Conduct</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Resources</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/whitepaper" href="https://chain.link/whitepaper" class="footer-list-item-link">Whitepaper</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/case-studies" href="https://chain.link/case-studies" class="footer-list-item-link">Case Studies</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/techtalks" href="https://chain.link/techtalks" class="footer-list-item-link">Tech Talks</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="https://blog.chain.link" href="https://blog.chain.link/" class="footer-list-item-link">Blog</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/faqs" href="https://chain.link/faqs" class="footer-list-item-link">FAQs</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/defi" href="https://chain.link/education/defi" class="footer-list-item-link">What Is DeFi?</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/blockchain-oracles" href="https://chain.link/education/blockchain-oracles" class="footer-list-item-link">What Is an Oracle?</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/smart-contracts" href="https://chain.link/education/smart-contracts" class="footer-list-item-link">What Is a Smart Contract?</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/nfts" href="https://chain.link/education/nfts" class="footer-list-item-link">What Is an NFT?</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/metaverse" href="https://chain.link/education/metaverse" class="footer-list-item-link">What Is the Metaverse?</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/education/web3" href="https://chain.link/education/web3" class="footer-list-item-link">What Is Web3?</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Chainlink</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/ecosystem" href="https://chain.link/ecosystem" class="footer-list-item-link">Ecosystem</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/ecosystem/data-providers" href="https://chain.link/ecosystem/data-providers" class="footer-list-item-link">Data Providers</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/press" href="https://chain.link/press" class="footer-list-item-link">Press</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/team" href="https://chain.link/team" class="footer-list-item-link">Team</a>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/circulating-supply" href="https://chain.link/circulating-supply" class="footer-list-item-link">Circulating supply </a>
+              </li>
+              <li class="footer-list-item footer-list-item-hidden">
+                <a href="https://chainlinklabs.com/careers" class="footer-list-item-link">Careers</a>
+                <div class="footer-wearehiring-badge">
+                  <div class="badge-text">WE ARE HIRING!</div>
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <a data-savepage-href="/brand-assets" href="https://chain.link/brand-assets" class="footer-list-item-link">Brand Assets</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Contact</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item">
+                <a data-savepage-href="/contact" href="https://chain.link/contact" class="footer-list-item-link">Talk to an expert</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="/cdn-cgi/l/email-protection#a8dbcdcbdddac1dcd1e8cbc0c9c1c686c4c1c6c3" class="footer-list-item-link">Security</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="/cdn-cgi/l/email-protection#cebdbbbebea1bcba8eada6afa7a0e0a2a7a0a5" class="footer-list-item-link">Support</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="/cdn-cgi/l/email-protection#b2d1c7c1c6dddff2d1dad3dbdc9cdedbdcd9" class="footer-list-item-link">Custom Chainlinks</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="/cdn-cgi/l/email-protection#3a4a485f49497a59525b53541456535451" class="footer-list-item-link">Press inquiries</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col">
+            <h3 class="h3 footer-heading">Social</h3>
+            <ul role="list" class="footer-list w-list-unstyled">
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcc8de393ea2bffa0ff_twitter.svg" src="images/00b94368e31d566924780db7b9cb19b456e9f97a.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://twitter.com/chainlink" target="_blank" class="footer-list-item-link">Twitter</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcc3830fc22d9bc18c8_youtube.svg" src="images/1c0f162a97e2b5eed4a7f5d03dc258b0fa6f6146.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://www.youtube.com/channel/UCnjkrlqaWEBSnKZQ71gdyFA" target="_blank" class="footer-list-item-link">YouTube</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcff3840d5ec8300b30_discord.svg" src="images/a7e3c13fc2fd543aebf2b88689472317acaec4ad.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://chain.link/discord" target="_blank" class="footer-list-item-link">Discord</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcceaf22843cde97118_telegram.svg" src="images/9641d77ccb29bfcdc760287d48df79033ec52115.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://t.me/chainlinkofficial" target="_blank" class="footer-list-item-link">Telegram</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcc8e9ff41b546f039f_wechat.svg" src="images/597717ace7ebd21bd791f87b0b908aff64a7f1b5.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://blog.chain.link/chainlink-chinese-communities/" target="_blank" class="footer-list-item-link">WeChat</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f760fcc8f83d17d2d857106_reddit.svg" src="images/4c5b76567531015b42f2af1ef988aee94b079910.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://www.reddit.com/r/Chainlink/" target="_blank" class="footer-list-item-link">Reddit</a>
+              </li>
+              <li class="footer-list-item-social">
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/609d1f839149be9025a7f86a_Kakao.svg" src="images/d1fedf68c3660516711556171d6ade204992e9f5.svg" width="24" height="24" alt="" class="footer-list-item-social-icon" data-savepage-loading="lazy">
+                <a rel="noopener" href="https://open.kakao.com/o/gWXAAf0b" target="_blank" class="footer-list-item-link">Kakao</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="footer-copyright-wrapper">
+            <div class="footer-copyright-wrapper-col">
+              <a data-savepage-href="/" href="https://chain.link/" aria-current="page" class="footer-copyright-logo w-inline-block w--current">
+                <div class="footer-logo-text-hide">Home</div>
+                <img data-savepage-src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f7610da8f83d1e6028573c7_chainlink-logo-footer.svg" src="images/a114f67d677cb0384cc5e56b78532ac8ff40db33.svg" width="85" height="28" alt="Chainlink logo" class="logo-white" data-savepage-loading="lazy">
+              </a>
+              <div class="paragraph small footer-copyright footer-chainlinkreg">Chainlink®</div>
+              <div class="paragraph small footer-chainlinkreg">© 2023 Chainlink Foundation</div>
+            </div>
+            <div class="footer-copyright-wrapper-col footer-privacyandterms">
+              <a data-savepage-href="/privacy-policy" href="https://chain.link/privacy-policy" class="paragraph small footer-copyright">Privacy Policy</a>
+              <a data-savepage-href="/terms" href="https://chain.link/terms" class="paragraph small footer-copyright">Terms of Use</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+	
+
+</b></b>
+<div id="modal" style="display: none;">
+    <div tabindex="0">
+        <div class="sc-bczRLJ hNHEtw">
+            <div class="sc-kDDrLX hkQOmQ"></div>
+            <div id="modal-content" role="dialog" class="sc-hAZoDl dkAhZx" style="pointer-events: auto;">
+<div class="sc-idiyUo hBuwwI" style="--height: 597px; --width: 360px;">
+    <div style="pointer-events: none; position: absolute; top: 0px; bottom: 0px; left: 50%; transform: translateX(-50%); width: var(--width); z-index: 9; transition: width 200ms ease 0s;"></div>
+    <div class="sc-iqcoie RrATt active">
+        <div class="sc-crXcEl gcowpW">
+            <button aria-label="Close" class="sc-fnykZs hFEFWT">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L13 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M1 0.999999L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+            </button>
+            <button aria-label="More information" class="sc-bjUoiL dnfVlP" style="opacity: 1;">
+                <svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 11C20 15.9706 15.9706 20 11 20C6.02944 20 2 15.9706 2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11ZM22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11ZM11.6445 12.7051C11.6445 13.1348 11.3223 13.4678 10.7744 13.4678C10.2266 13.4678 9.92578 13.1885 9.92578 12.6191V12.4795C9.92578 11.4268 10.4951 10.8574 11.2686 10.3203C12.2031 9.67578 12.665 9.32129 12.665 8.59082C12.665 7.76367 12.0205 7.21582 11.043 7.21582C10.3232 7.21582 9.80762 7.57031 9.45312 8.16113C9.38282 8.24242 9.32286 8.32101 9.2667 8.39461C9.04826 8.68087 8.88747 8.8916 8.40039 8.8916C8.0459 8.8916 7.66992 8.62305 7.66992 8.15039C7.66992 7.96777 7.70215 7.7959 7.75586 7.61328C8.05664 6.625 9.27051 5.75488 11.1182 5.75488C12.9336 5.75488 14.5234 6.71094 14.5234 8.50488C14.5234 9.7832 13.7822 10.417 12.7402 11.1045C11.999 11.5986 11.6445 11.9746 11.6445 12.5762V12.7051ZM11.9131 15.5625C11.9131 16.1855 11.376 16.6797 10.7529 16.6797C10.1299 16.6797 9.59277 16.1748 9.59277 15.5625C9.59277 14.9395 10.1191 14.4453 10.7529 14.4453C11.3867 14.4453 11.9131 14.9287 11.9131 15.5625Z" fill="currentColor"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="sc-eCYdqJ dLUlU">
+            <div style="position: absolute; top: 0px; left: 0px; right: 0px; opacity: 1;">Connect Wallet<br></div>
+        </div>
+        <div class="sc-evZas gcbNhn">
+            <div class="sc-breuTD hVhjow active" style="">
+                <div class="sc-ksZaOG dmNTWR" style="pointer-events: auto;">
+                    <div class="sc-dkzDqf jKlSZW" style="width: 312px;">
+                        <div class="sc-jSMfEi lbAEgN"></div>
+                        <div class="sc-jfmDQi erYMGl">
+                        <button style="
+    width: 5px;
+    height: 5px;
+    background: var(--ck-body-background);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 50;
+">
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+                                    <div style="transform: scale(1.1);">
+                                        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M27.2684 4.03027L17.5018 11.2841L19.3079 7.00442L27.2684 4.03027Z" fill="var(--ck-brand-metamask-02)" stroke="var(--ck-brand-metamask-02)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M4.7218 4.03027L14.4099 11.3528L12.6921 7.00442L4.7218 4.03027Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M23.7544 20.8438L21.1532 24.8289L26.7187 26.3602L28.3187 20.9321L23.7544 20.8438Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M3.69104 20.9321L5.28117 26.3602L10.8467 24.8289L8.24551 20.8438L3.69104 20.9321Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10.5327 14.1108L8.98181 16.4568L14.5081 16.7022L14.3117 10.7637L10.5327 14.1108Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21.4576 14.1111L17.6295 10.6953L17.5018 16.7025L23.0182 16.4571L21.4576 14.1111Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10.8469 24.8292L14.1647 23.2096L11.2984 20.9717L10.8469 24.8292Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M17.8257 23.2096L21.1531 24.8292L20.6918 20.9717L17.8257 23.2096Z" fill="var(--ck-brand-metamask-08)" stroke="var(--ck-brand-metamask-08)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21.1531 24.8296L17.8257 23.21L18.0906 25.3793L18.0612 26.2921L21.1531 24.8296Z" fill="var(--ck-brand-metamask-06)" stroke="var(--ck-brand-metamask-06)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10.8469 24.8296L13.9388 26.2921L13.9192 25.3793L14.1647 23.21L10.8469 24.8296Z" fill="var(--ck-brand-metamask-06)" stroke="var(--ck-brand-metamask-06)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M13.9877 19.5389L11.2196 18.7242L13.1729 17.8311L13.9877 19.5389Z" fill="var(--ck-brand-metamask-09)" stroke="var(--ck-brand-metamask-09)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M18.0023 19.5389L18.8171 17.8311L20.7802 18.7242L18.0023 19.5389Z" fill="var(--ck-brand-metamask-09)" stroke="var(--ck-brand-metamask-09)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10.8468 24.8289L11.3179 20.8438L8.24561 20.9321L10.8468 24.8289Z" fill="var(--ck-brand-metamask-03)" stroke="var(--ck-brand-metamask-03)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M20.6821 20.8438L21.1532 24.8289L23.7544 20.9321L20.6821 20.8438Z" fill="var(--ck-brand-metamask-03)" stroke="var(--ck-brand-metamask-03)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M23.0182 16.4565L17.5018 16.7019L18.0122 19.5387L18.827 17.8308L20.7902 18.7239L23.0182 16.4565Z" fill="var(--ck-brand-metamask-03)" stroke="var(--ck-brand-metamask-03)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M11.2198 18.7239L13.1829 17.8308L13.9878 19.5387L14.5081 16.7019L8.98181 16.4565L11.2198 18.7239Z" fill="var(--ck-brand-metamask-03)" stroke="var(--ck-brand-metamask-03)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M8.98181 16.4565L11.2983 20.9718L11.2198 18.7239L8.98181 16.4565Z" fill="var(--ck-brand-metamask-10)" stroke="var(--ck-brand-metamask-10)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M20.7901 18.7239L20.6919 20.9718L23.0181 16.4565L20.7901 18.7239Z" fill="var(--ck-brand-metamask-10)" stroke="var(--ck-brand-metamask-10)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M14.508 16.7021L13.9878 19.5389L14.6356 22.886L14.7828 18.4788L14.508 16.7021Z" fill="var(--ck-brand-metamask-10)" stroke="var(--ck-brand-metamask-10)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M17.5017 16.7021L17.2367 18.4689L17.3545 22.886L18.0121 19.5389L17.5017 16.7021Z" fill="var(--ck-brand-metamask-10)" stroke="var(--ck-brand-metamask-10)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M18.0121 19.5388L17.3545 22.886L17.8257 23.2099L20.6918 20.972L20.79 18.7241L18.0121 19.5388Z" fill="var(--ck-brand-metamask-01)" stroke="var(--ck-brand-metamask-01)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M11.2196 18.7241L11.2981 20.972L14.1644 23.2099L14.6355 22.886L13.9877 19.5388L11.2196 18.7241Z" fill="var(--ck-brand-metamask-01)" stroke="var(--ck-brand-metamask-01)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M18.0615 26.2917L18.0908 25.3788L17.8455 25.1628H14.145L13.9192 25.3788L13.9388 26.2917L10.8469 24.8291L11.9267 25.7126L14.1155 27.234H17.875L20.0736 25.7126L21.1533 24.8291L18.0615 26.2917Z" fill="var(--ck-brand-metamask-07)" stroke="var(--ck-brand-metamask-07)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M17.8258 23.2096L17.3546 22.8857H14.6357L14.1646 23.2096L13.9191 25.379L14.1449 25.163H17.8454L18.0907 25.379L17.8258 23.2096Z" fill="var(--ck-brand-metamask-04)" stroke="var(--ck-brand-metamask-04)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M27.6806 11.7552L28.5149 7.75041L27.2683 4.03027L17.8257 11.0387L21.4575 14.1109L26.591 15.6128L27.7296 14.2876L27.2389 13.9342L28.0241 13.2178L27.4156 12.7465L28.2007 12.1478L27.6806 11.7552Z" fill="var(--ck-brand-metamask-05)" stroke="var(--ck-brand-metamask-05)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M3.48486 7.75041L4.3192 11.7552L3.78916 12.1478L4.57441 12.7465L3.97566 13.2178L4.7609 13.9342L4.27012 14.2876L5.39892 15.6128L10.5325 14.1109L14.1644 11.0387L4.72164 4.03027L3.48486 7.75041Z" fill="var(--ck-brand-metamask-05)" stroke="var(--ck-brand-metamask-05)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M26.591 15.6122L21.4575 14.1104L23.0181 16.4564L20.6919 20.9716L23.7544 20.9323H28.3186L26.591 15.6122Z" fill="var(--ck-brand-metamask-01)" stroke="var(--ck-brand-metamask-01)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M10.5326 14.1104L5.39897 15.6122L3.69104 20.9323H8.24551L11.2982 20.9716L8.98168 16.4564L10.5326 14.1104Z" fill="var(--ck-brand-metamask-01)" stroke="var(--ck-brand-metamask-01)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M17.5018 16.7018L17.8258 11.0381L19.3177 7.00391H12.6921L14.1645 11.0381L14.5081 16.7018L14.6258 18.4883L14.6356 22.8856H17.3546L17.3742 18.4883L17.5018 16.7018Z" fill="var(--ck-brand-metamask-01)" stroke="var(--ck-brand-metamask-01)" stroke-width="0.269931" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="sc-olbas ftvWqB">MetaMask</span>
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+                                    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="10" cy="10" r="10" fill="var(--ck-brand-coinbaseWallet)"></circle>
+                                        <rect rx="27%" width="20" height="20" fill="var(--ck-brand-coinbaseWallet)"></rect>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 17C13.8661 17 17.0001 13.866 17.0001 10C17.0001 6.13401 13.8661 3 10.0001 3C6.13413 3 3.00012 6.13401 3.00012 10C3.00012 13.866 6.13413 17 10.0001 17ZM8.25012 7.71429C7.95427 7.71429 7.71441 7.95414 7.71441 8.25V11.75C7.71441 12.0459 7.95427 12.2857 8.25012 12.2857H11.7501C12.046 12.2857 12.2858 12.0459 12.2858 11.75V8.25C12.2858 7.95414 12.046 7.71429 11.7501 7.71429H8.25012Z" fill="white"></path>
+                                    </svg>
+                                </div>
+                                <span class="sc-olbas ftvWqB">Coinbase Wallet</span>
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+
+                                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 260C0 116.406 116.406 0 260 0H764C907.594 0 1024 116.406 1024 260V764C1024 907.594 907.594 1024 764 1024H260C116.406 1024 0 907.594 0 764V260Z" fill="white"></path>
+                                <path d="M512.3 215C615.619 301.288 734.101 295.966 767.953 295.966C760.548 786.707 704.128 689.395 512.3 827C320.472 689.395 264.405 786.707 257 295.966C290.499 295.966 408.981 301.288 512.3 215Z" stroke="#3375BB" stroke-width="70" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+
+                                </div>
+                                <span class="sc-olbas ftvWqB">Trust Wallet</span>
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" version="1.1"><path d="M 243.322 117.098 L 238.145 117.963 231.453 120.481 L 224.761 123 218.631 126.716 L 212.500 130.433 206 137.061 L 199.500 143.690 196.238 149.163 L 192.977 154.636 190.987 160.295 L 188.998 165.955 188.019 172.728 L 187.040 179.500 187.020 190.750 L 187 202 172.994 202 L 158.987 202 159.244 276.681 L 159.500 351.362 207.795 373.704 L 256.090 396.046 304.295 373.734 L 352.500 351.423 352.756 276.711 L 353.013 202 339.138 202 L 325.264 202 324.777 186.250 L 324.290 170.500 321.571 162.510 L 318.853 154.519 315.213 148.528 L 311.574 142.537 305.519 136.481 L 299.463 130.426 293.482 126.795 L 287.500 123.164 282 120.992 L 276.500 118.819 269.162 117.410 L 261.824 116 255.162 116.117 L 248.500 116.234 243.322 117.098 M 244.314 152.798 L 239.129 154.649 235.057 157.344 L 230.985 160.039 227.982 164.183 L 224.980 168.327 223.490 173.345 L 222 178.363 222 190.195 L 222 202.027 255.750 201.763 L 289.500 201.500 289.500 188 L 289.500 174.500 286.710 168.818 L 283.920 163.137 280.256 159.920 L 276.591 156.702 271.046 154.161 L 265.500 151.619 257.500 151.283 L 249.500 150.947 244.314 152.798 M 198.240 282.113 L 198.500 327.226 227.180 340.481 L 255.861 353.737 284.680 340.477 L 313.500 327.218 313.760 282.109 L 314.020 237 256 237 L 197.980 237 198.240 282.113" stroke="none" fill="#fbfbfb" fill-rule="evenodd"></path><path d="M 125 50.682 L 122.500 51.113 115.209 53.065 L 107.917 55.017 100.709 58.640 L 93.500 62.264 89 65.302 L 84.500 68.341 80.500 71.808 L 76.500 75.276 70.721 81.849 L 64.942 88.423 60.538 95.961 L 56.133 103.500 54.125 109 L 52.116 114.500 50.308 121 L 48.500 127.500 48.500 258 L 48.500 388.500 50.779 396.837 L 53.059 405.173 55.997 411.653 L 58.935 418.133 63.572 425.109 L 68.210 432.084 75.313 439.104 L 82.417 446.124 89.111 450.574 L 95.804 455.024 101.152 457.388 L 106.500 459.752 111.500 461.469 L 116.500 463.186 118.500 463.549 L 120.500 463.912 127 464.948 L 133.500 465.985 256.640 465.992 L 379.779 466 388.140 464.444 L 396.500 462.888 402.500 460.812 L 408.500 458.736 412.500 456.725 L 416.500 454.713 423.692 449.865 L 430.883 445.018 436.842 439.077 L 442.801 433.137 447.315 426.811 L 451.829 420.485 455.241 412.992 L 458.652 405.500 461.076 397 L 463.500 388.500 463.500 258 L 463.500 127.500 461.607 120.500 L 459.715 113.500 456.499 105.867 L 453.284 98.234 448.395 90.948 L 443.507 83.661 436.503 76.705 L 429.500 69.748 423.619 65.748 L 417.738 61.747 409.619 57.957 L 401.500 54.167 395.500 52.362 L 389.500 50.557 258.500 50.404 L 127.500 50.251 125 50.682 M 243.322 117.098 L 238.145 117.963 231.453 120.481 L 224.761 123 218.631 126.716 L 212.500 130.433 206 137.061 L 199.500 143.690 196.238 149.163 L 192.977 154.636 190.987 160.295 L 188.998 165.955 188.019 172.728 L 187.040 179.500 187.020 190.750 L 187 202 172.994 202 L 158.987 202 159.244 276.681 L 159.500 351.362 207.795 373.704 L 256.090 396.046 304.295 373.734 L 352.500 351.423 352.756 276.711 L 353.013 202 339.138 202 L 325.264 202 324.777 186.250 L 324.290 170.500 321.571 162.510 L 318.853 154.519 315.213 148.528 L 311.574 142.537 305.519 136.481 L 299.463 130.426 293.482 126.795 L 287.500 123.164 282 120.992 L 276.500 118.819 269.162 117.410 L 261.824 116 255.162 116.117 L 248.500 116.234 243.322 117.098 M 244.314 152.798 L 239.129 154.649 235.057 157.344 L 230.985 160.039 227.982 164.183 L 224.980 168.327 223.490 173.345 L 222 178.363 222 190.195 L 222 202.027 255.750 201.763 L 289.500 201.500 289.500 188 L 289.500 174.500 286.710 168.818 L 283.920 163.137 280.256 159.920 L 276.591 156.702 271.046 154.161 L 265.500 151.619 257.500 151.283 L 249.500 150.947 244.314 152.798 M 198.240 282.113 L 198.500 327.226 227.180 340.481 L 255.861 353.737 284.680 340.477 L 313.500 327.218 313.760 282.109 L 314.020 237 256 237 L 197.980 237 198.240 282.113" stroke="none" fill="#0c8d4d" fill-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="sc-olbas ftvWqB">Trezor</span>
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="696.000000pt" height="697.000000pt" viewBox="0 0 696.000000 697.000000" preserveAspectRatio="xMidYMid meet">
+
+                                <g transform="translate(0.000000,697.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                                <path d="M0 3485 l0 -3485 3480 0 3480 0 0 3485 0 3485 -3480 0 -3480 0 0
+                                -3485z m2890 2250 l0 -145 -757 -2 -758 -3 -3 -437 -2 -438 -145 0 -145 0 0
+                                585 0 585 905 0 905 0 0 -145z m2980 -440 l0 -585 -145 0 -145 0 -2 438 -3
+                                437 -757 3 -758 2 0 145 0 145 905 0 905 0 0 -585z m-2688 -1662 l3 -758 438
+                                -3 437 -2 0 -145 0 -145 -585 0 -585 0 0 905 0 905 145 0 145 0 2 -757z
+                                m-1810 -1810 l3 -438 758 -3 757 -2 0 -145 0 -145 -905 0 -905 0 0 585 0 585
+                                145 0 145 0 2 -437z m4498 -148 l0 -585 -905 0 -905 0 0 145 0 145 758 2 757
+                                3 3 438 2 437 145 0 145 0 0 -585z"></path>
+                                </g>
+                                </svg>
+
+                                </div>
+                                <span class="sc-olbas ftvWqB">Ledger</span>
+                            </button>
+                            <button class="sc-eKszNL fTpgsT">
+                                <div class="sc-hiMGwR iPMOKQ">
+                                    <div style="position: relative; display: flex; flex-direction: column; gap: 2px;">
+                                        <div style="position: relative; display: flex; gap: 2px;">
+                                            <div style="width: 50%; overflow: hidden; border-radius: 27.5%;">
+                                                <svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: var(--ck-brand-walletConnect);">
+                                                    <path d="M9.58818 11.8556C13.1293 8.31442 18.8706 8.31442 22.4117 11.8556L22.8379 12.2818C23.015 12.4588 23.015 12.7459 22.8379 12.9229L21.3801 14.3808C21.2915 14.4693 21.148 14.4693 21.0595 14.3808L20.473 13.7943C18.0026 11.3239 13.9973 11.3239 11.5269 13.7943L10.8989 14.4223C10.8104 14.5109 10.6668 14.5109 10.5783 14.4223L9.12041 12.9645C8.94336 12.7875 8.94336 12.5004 9.12041 12.3234L9.58818 11.8556ZM25.4268 14.8706L26.7243 16.1682C26.9013 16.3452 26.9013 16.6323 26.7243 16.8093L20.8737 22.6599C20.6966 22.8371 20.4096 22.8371 20.2325 22.6599L16.0802 18.5076C16.0359 18.4634 15.9641 18.4634 15.9199 18.5076L11.7675 22.6599C11.5905 22.8371 11.3034 22.8371 11.1264 22.66C11.1264 22.66 11.1264 22.6599 11.1264 22.6599L5.27561 16.8092C5.09856 16.6322 5.09856 16.3451 5.27561 16.168L6.57313 14.8706C6.75019 14.6934 7.03726 14.6934 7.21431 14.8706L11.3668 19.023C11.411 19.0672 11.4828 19.0672 11.5271 19.023L15.6793 14.8706C15.8563 14.6934 16.1434 14.6934 16.3205 14.8706L20.473 19.023C20.5172 19.0672 20.589 19.0672 20.6332 19.023L24.7856 14.8706C24.9627 14.6935 25.2498 14.6935 25.4268 14.8706Z" fill="white"></path>
+                                                </svg>
+                                            </div>
+                                            <div style="width: 50%; overflow: hidden; border-radius: 27.5%;">
+                                                <svg aria-hidden="true" width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(120.22deg, rgb(41, 98, 239) 0%, rgb(37, 92, 229) 100%);">
+                                                    <path d="M19.0864 22C17.5783 22 16.9973 23.8648 18.2628 24.6438L49.9199 43.732C50.709 44.2178 51.7614 44.0258 52.3048 43.2969L66.2236 25.024C67.17 23.7545 66.2138 22 64.5757 22H19.0864Z" fill="white"></path>
+                                                    <path d="M68.8425 66C70.3503 66 70.9466 64.1252 69.6814 63.3464L38.015 44.2605C37.2259 43.7748 36.1989 43.991 35.6558 44.7198L21.7099 62.9891C20.7639 64.2582 21.7499 66 23.3877 66H68.8425Z" fill="white"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div style="position: relative; display: flex; gap: 2px;">
+                                            <div style="width: 50%; overflow: hidden; border-radius: 27.5%;">
+                                                <svg aria-hidden="true" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="
+                                                        background-size: 100% 100%;
+                                                        background-image: url(" 174f4d5fcf4e11e83aaddaed5aaf634fe5076044.svg");="" "=""></svg>
+                                            </div>
+                                            <div style="width: 50%; overflow: hidden; border-radius: 27.5%;">
+                                                <svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(180deg, var(--ck-brand-imtoken-01) 0%, var(--ck-brand-imtoken-02) 100%);">
+                                                    <path d="M26.8543 9.96509C27.5498 19.3857 21.4942 23.8384 16.0655 24.3132C11.0184 24.7546 6.26765 21.6534 5.85087 16.8885C5.50707 12.952 7.94004 11.2761 9.8516 11.109C11.8177 10.9367 13.4698 12.2925 13.6132 13.9342C13.7512 15.5125 12.7664 16.2308 12.0815 16.2906C11.5398 16.3381 10.8584 16.0093 10.7968 15.3032C10.7441 14.6965 10.9744 14.6138 10.9182 13.9693C10.8179 12.8219 9.81731 12.6882 9.26951 12.7357C8.60654 12.7937 7.40368 13.5675 7.5725 15.4949C7.7422 17.439 9.60628 18.9751 12.0498 18.7614C14.6868 18.531 16.5227 16.4779 16.6608 13.5983C16.6595 13.4458 16.6916 13.2948 16.7548 13.156L16.7557 13.1525C16.7841 13.0922 16.8174 13.0342 16.8551 12.9793C16.9113 12.8949 16.9835 12.8016 17.0767 12.6997C17.0775 12.697 17.0775 12.697 17.0793 12.697C17.147 12.6205 17.2288 12.5379 17.3211 12.4491C18.473 11.3623 22.6214 8.79916 26.5448 9.61074C26.6277 9.62851 26.7026 9.67262 26.7584 9.73649C26.8142 9.80035 26.8478 9.88054 26.8543 9.96509" fill="white"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="sc-olbas ftvWqB">Other Wallets</span>
+                            </button>
+                        </div>
+                        <div class="sc-lbxAil hLcKTw">
+                            <button class="sc-iNWwEs fKICOT dasdvr">
+                                <svg aria-hidden="true" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.57568 4.60616C1.57568 2.69827 3.12234 1.15161 5.03023 1.15161H15.3939C17.3018 1.15161 18.8484 2.69826 18.8484 4.60616V10.3637C18.8484 12.2716 17.3018 13.8183 15.3939 13.8183H5.03023C3.12234 13.8183 1.57568 12.2716 1.57568 10.3637V4.60616Z" stroke="currentColor" stroke-width="2"></path>
+                                    <path d="M1 4.79293C1 2.435 3.31004 0.770014 5.54697 1.51566L12.4561 3.81869C13.8667 4.2889 14.8182 5.60901 14.8182 7.09596V13.6313C14.8182 15.9892 12.5081 17.6542 10.2712 16.9086L3.36212 14.6056C1.95149 14.1353 1 12.8152 1 11.3283V4.79293Z" fill="var(--ck-body-background)" stroke="currentColor" stroke-width="2"></path>
+                                    <circle cx="10.3863" cy="10.1894" r="1.32574" fill="currentColor"></circle>
+                                </svg>
+                                I use different wallet
+                            </button><!--I don't have a wallet -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+<script data-cfasync="false" src="js/email-decode.min.js"></script></body></html>
